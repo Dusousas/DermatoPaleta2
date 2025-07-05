@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,html {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.maxW{
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.bgMain{
+  background-image: url('/home-1.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 80px);
+}
+
+h1{
+  color: #2D405E;
+}
+
+p{
+  color: #2D405E;
+}
+
+h2{
+  color: #B14D29;
+}

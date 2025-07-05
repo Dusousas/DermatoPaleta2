@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "main": {
+    "subtitle": "Leonardo Martinelli",
+    "title": "Natural results with technology",
+    "description": "Advanced dermatological treatments with cutting-edge technology and natural results. Serving São Paulo and Torrinha, Dr. Leonardo Martinelli — dermatologist trained at UFPR.",
+    "treatments": {
+      "laser": "Laser Treatments",
+      "harmonization": "Facial Harmonization",
+      "filler": "Fillers",
+      "botox": "Botox"
+    }
+  },
+  "about": {
+    "subtitle": "About us",
+    "title": "Lorem ipsum dolor sit.",
+    "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Often subject to legal rights, it is indeed possible to have the greatest minds who know how to handle valuable things without harm. Rejected responsibilities lead to consequences, yet courage overcomes what is often blocked by hesitation.",
+    "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Often subject to legal rights, it is indeed possible to have the greatest minds.",
+    "items": {
+      "item1": "Example title 1",
+      "item2": "Example title 2",
+      "item3": "Example title 3",
+      "item4": "Example title 4"
+    },
+    "button": "Schedule an appointment"
+  },
+  "portfolio": {
+    "before": "Before",
+    "after": "After",
+    "drag": "Drag",
+    "beforeAlt": "Before treatment",
+    "afterAlt": "After treatment",
+    "subtitle": "Portfolio",
+    "title": "Before & After Gallery",
+    "highlight": "Real transformations, visible results.",
+    "description": "See the difference that high-performance dermatology can make. Each image reflects a commitment to natural results, safety, and excellence in every treatment.",
+    "button": "See more"
+  },
+  "lineCta": {
+    "text": "Schedule your appointment with our specialist.",
+    "button": "Schedule now"
+  },
+  "services": {
+    "subtitle": "Treatments",
+    "title": "Our Treatments",
+    "description": "We offer modern solutions to enhance your beauty safely and naturally.",
+    "treatments": {
+      "rhinoplasty": "Rhinoplasty",
+      "liposuction": "Liposuction",
+      "botox": "Botox",
+      "lipFiller": "Lip Filler"
+    }
+  },
+  "doctor": {
+    "subtitle": "Who am I",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Often challenged, yet always committed to offering the best care. I am passionate about dermatology and dedicated to providing treatments that reflect excellence and trust.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. With knowledge and empathy, I transform expectations into natural and safe results.",
+    "button": "Schedule an appointment"
+  },
+  "form": {
+    "subtitle": "Get in touch",
+    "title": "Book your appointment",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "Your email",
+    "phoneLabel": "Your phone",
+    "phonePlaceholder": "Your phone",
+    "messagePlaceholder": "Your message",
+    "button": "Send"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "contact": "Contato"
+  },
+  "main": {
+    "subtitle": "Leonardo Martinelli",
+    "title": "Resultados naturais com tecnologia",
+    "description": "Tratamentos dermatológicos com tecnologia de ponta e resultados naturais. Atendimento em São Paulo e Torrinha com o Dr. Leonardo Martinelli, dermatologista pela UFPR.",
+    "treatments": {
+      "laser": "Tratamentos com Laser",
+      "harmonization": "Harmonização Facial",
+      "filler": "Preenchimentos",
+      "botox": "Botox"
+    }
+  },
+  "about": {
+    "subtitle": "Sobre nós",
+    "title": "Lorem ipsum dolor sit.",
+    "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nemo velit corporis ullam. Ab repudiandae exercitationem amet sequi corrupti, aperiam saepe sint corporis neque blanditiis vel ad. Libero possimus officia frequentemente?",
+    "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nem.",
+    "items": {
+      "item1": "Título exemplo 1",
+      "item2": "Título exemplo 2",
+      "item3": "Título exemplo 3",
+      "item4": "Título exemplo 4"
+    },
+    "button": "Marcar uma consulta"
+  },
+  "portfolio": {
+    "before": "Antes",
+    "after": "Depois",
+    "drag": "Arraste",
+    "beforeAlt": "Antes do tratamento",
+    "afterAlt": "Depois do tratamento",
+    "subtitle": "Portfólio",
+    "title": "Galeria antes & Depois",
+    "highlight": "Transformações reais, resultados visíveis.",
+    "description": "Veja a diferença que a dermatologia de alta performance pode proporcionar. Cada imagem reflete o compromisso com a naturalidade, segurança e excelência em cada tratamento.",
+    "button": "Ver mais"
+  },
+  "lineCta": {
+    "text": "Agende sua consulta com o nosso especialista.",
+    "button": "Agendar consulta"
+  },
+  "services": {
+    "subtitle": "Tratamentos",
+    "title": "Nossos tratamentos",
+    "description": "Oferecemos soluções modernas para realçar sua beleza de forma segura e natural.",
+    "treatments": {
+      "rhinoplasty": "Rinoplastia",
+      "liposuction": "Lipoaspiração",
+      "botox": "Botox",
+      "lipFiller": "Preenchimento Labial"
+    }
+  },
+  "doctor": {
+    "subtitle": "Quem sou eu",
+    "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nemo velit corporis ullam. Ab repudiandae exercitationem amet sequi corrupti, aperiam saepe sint corporis neque blanditiis vel ad. Libero possimus officia frequentemente?",
+    "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nem.",
+    "button": "Marcar uma consulta"
+  },
+  "form": {
+    "subtitle": "Entrar em contato",
+    "title": "Reserve seu horário",
+    "nameLabel": "Seu nome",
+    "namePlaceholder": "Seu nome",
+    "emailLabel": "Seu email",
+    "emailPlaceholder": "Seu email",
+    "phoneLabel": "Seu telefone",
+    "phonePlaceholder": "Seu telefone",
+    "messagePlaceholder": "Sua mensagem",
+    "button": "Enviar"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados"
+  }
+}
