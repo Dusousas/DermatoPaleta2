@@ -31,7 +31,7 @@ export default function Navbar() {
         <ul className="flex gap-6 text-lg uppercase text-BrowP">
           {navItems.map((item) => (
             <a key={item.id} href={`#${item.id}`}>
-              <li>{item.label}</li>
+              <li className="text-P2BlueD">{item.label}</li>
             </a>
           ))}
         </ul>
@@ -50,14 +50,15 @@ export default function Navbar() {
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <ul className="flex flex-col items-center gap-8 text-lg uppercase text-BrowP">
+          <ul className="flex flex-col text-cyan-100 items-center gap-8 text-lg uppercase text-BrowP">
             {navItems.map((item) => (
               <a
                 key={item.id}
                 href={`#${item.id}`}
                 onClick={() => setIsOpen(false)}
+                
               >
-                <li>{item.label}</li>
+                <li className="text-P2BlueD">{item.label}</li>
               </a>
             ))}
           </ul>

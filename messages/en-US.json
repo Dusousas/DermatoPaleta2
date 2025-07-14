@@ -8,24 +8,24 @@
   "main": {
     "subtitle": "Leonardo Martinelli",
     "title": "Natural results with technology",
-    "description": "Advanced dermatological treatments with cutting-edge technology and natural results. Serving São Paulo and Torrinha, Dr. Leonardo Martinelli — dermatologist trained at UFPR.",
+    "description": "Dermatological treatments with cutting-edge technology and natural results. Consultations in São Paulo and Torrinha with Dr. Leonardo Martinelli, dermatologist trained at UFPR.",
     "treatments": {
-      "laser": "Laser Treatments",
-      "harmonization": "Facial Harmonization",
-      "filler": "Fillers",
-      "botox": "Botox"
+      "laser": "Body treatments and weight loss",
+      "harmonization": "Hair loss and scalp health",
+      "filler": "Facial rejuvenation",
+      "botox": "Dermatological consultation"
     }
   },
   "about": {
     "subtitle": "About us",
-    "title": "Lorem ipsum dolor sit.",
-    "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Often subject to legal rights, it is indeed possible to have the greatest minds who know how to handle valuable things without harm. Rejected responsibilities lead to consequences, yet courage overcomes what is often blocked by hesitation.",
-    "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Often subject to legal rights, it is indeed possible to have the greatest minds.",
+    "title": "Discover a new way to care for your skin",
+    "description1": "Specialized in dermatology and aesthetic medicine, with a focus on treatments that promote health, self-esteem, and natural beauty. With training in Dermatology, Aesthetic Medicine, Trichology, and Scientific Cosmetics, Dr. Leonardo offers an individualized approach, integrating science, aesthetics, and attentive care. His protocols include facial rejuvenation, hair health, and modern techniques to highlight each patient’s natural beauty.",
+    "description2": "Committed to ethics and constant professional development, Dr. Leonardo provides safe, effective care tailored to each individual’s needs.",
     "items": {
-      "item1": "Example title 1",
-      "item2": "Example title 2",
-      "item3": "Example title 3",
-      "item4": "Example title 4"
+      "item1": "Technology and unique care",
+      "item2": "2,500+ lives transformed",
+      "item3": "Consultations in São Paulo and the countryside",
+      "item4": "Global training and continuing education"
     },
     "button": "Schedule an appointment"
   },
@@ -38,28 +38,35 @@
     "subtitle": "Portfolio",
     "title": "Before & After Gallery",
     "highlight": "Real transformations, visible results.",
-    "description": "See the difference that high-performance dermatology can make. Each image reflects a commitment to natural results, safety, and excellence in every treatment.",
+    "description": "See the difference that high-performance dermatology can provide. Each image reflects a commitment to naturalness, safety, and excellence in every treatment.",
     "button": "See more"
   },
   "lineCta": {
-    "text": "Schedule your appointment with our specialist.",
-    "button": "Schedule now"
+    "text": "Schedule your consultation with our specialist.",
+    "button": "Schedule in Torrinha",
+    "button1": "Schedule in São Paulo"
   },
   "services": {
     "subtitle": "Treatments",
     "title": "Our Treatments",
     "description": "We offer modern solutions to enhance your beauty safely and naturally.",
     "treatments": {
-      "rhinoplasty": "Rhinoplasty",
-      "liposuction": "Liposuction",
-      "botox": "Botox",
-      "lipFiller": "Lip Filler"
+      "botulinica": "Botulinum Toxin",
+      "colageno": "Collagen Biostimulator",
+      "hialuronico": "Hyaluronic Acid",
+      "skinbooster": "Skinbooster",
+      "blefaroplastia": "Laser Blepharoplasty",
+      "plasma": "Plasma Jet",
+      "fotona": "Fotona 5D",
+      "melasma": "Melasma Treatments",
+      "tricologia": "Trichology and hair loss",
+      "gordura": "Localized fat"
     }
   },
   "doctor": {
-    "subtitle": "Who am I",
-    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Often challenged, yet always committed to offering the best care. I am passionate about dermatology and dedicated to providing treatments that reflect excellence and trust.",
-    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. With knowledge and empathy, I transform expectations into natural and safe results.",
+    "subtitle": "Who I am",
+    "description1": "I'm Dr. Leonardo Martinelli, a physician passionate about science, caring for people, and the impact self-esteem has on each person’s life. I graduated from UFPR and specialized in Dermatology, Aesthetic Medicine, Trichology, and Scientific Cosmetics. From the beginning, I’ve always believed that my role in medicine goes beyond treatment — it’s about listening, supporting, and helping each patient feel good about their own image.",
+    "description2": "For me, aesthetics doesn’t change who you are. It reveals your best, with lightness, naturalness, and respect for your essence.",
     "button": "Schedule an appointment"
   },
   "form": {
