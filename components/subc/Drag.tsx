@@ -72,7 +72,7 @@ export default function Drag(): JSX.Element {
         >
           {/* Imagem ANTES */}
           <div className='absolute inset-0'>
-            <img className='w-full h-full object-cover' src="before-1.jpg" alt={t('beforeAlt')} draggable={false} />
+            <img className='w-full h-full object-cover' src="before-1.JPG" alt={t('beforeAlt')} draggable={false} />
             <div className='absolute left-8 top-1/2 -translate-y-1/2 -rotate-90'>
               <span className='text-white text-xl font-bold tracking-[0.3em] uppercase drop-shadow-lg'>
                 {t('before')}
@@ -85,7 +85,7 @@ export default function Drag(): JSX.Element {
             className='absolute inset-0 transition-all duration-75 ease-out'
             style={{ clipPath: `polygon(${sliderPosition}% 0%, 100% 0%, 100% 100%, ${sliderPosition}% 100%)` }}
           >
-            <img className='w-full h-full object-cover' src="after-1.jpg" alt={t('afterAlt')} draggable={false} />
+            <img className='w-full h-full object-cover' src="after-1.JPG" alt={t('afterAlt')} draggable={false} />
             <div className='absolute right-8 top-1/2 -translate-y-1/2 rotate-90'>
               <span className='text-white text-xl font-bold tracking-[0.3em] uppercase drop-shadow-lg'>
                 {t('after')}
