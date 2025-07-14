@@ -10,22 +10,22 @@
     "title": "Resultados naturais com tecnologia",
     "description": "Tratamentos dermatológicos com tecnologia de ponta e resultados naturais. Atendimento em São Paulo e Torrinha com o Dr. Leonardo Martinelli, dermatologista pela UFPR.",
     "treatments": {
-      "laser": "Tratamentos com Laser",
-      "harmonization": "Harmonização Facial",
-      "filler": "Preenchimentos",
-      "botox": "Botox"
+      "laser": "Tratamentos corporais e emagrecimento",
+      "harmonization": "Queda e saúde dos cabelos",
+      "filler": "Rejuvenescimento facial",
+      "botox": "Consulta dermatológica "
     }
   },
   "about": {
     "subtitle": "Sobre nós",
-    "title": "Lorem ipsum dolor sit.",
-    "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nemo velit corporis ullam. Ab repudiandae exercitationem amet sequi corrupti, aperiam saepe sint corporis neque blanditiis vel ad. Libero possimus officia frequentemente?",
-    "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nem.",
+    "title": "Entenda uma nova forma de cuidar da sua pele",
+    "description1": "Especializado em dermatologia e medicina estética, com foco em tratamentos que promovem saúde, autoestima e beleza natural. Com formações em Dermatologia, Medicina Estética, Tricologia e Cosmética Científica, atua com uma abordagem individualizada, integrando ciência, estética e escuta cuidadosa. Seus protocolos incluem rejuvenescimento facial, saúde capilar e técnicas modernas para valorizar a beleza real de cada paciente.",
+    "description2": "Comprometido com ética e atualização constante, Dr. Leonardo oferece cuidados seguros, eficazes e alinhados às necessidades de cada pessoa.",
     "items": {
-      "item1": "Título exemplo 1",
-      "item2": "Título exemplo 2",
-      "item3": "Título exemplo 3",
-      "item4": "Título exemplo 4"
+      "item1": "Tecnologia e cuidado único",
+      "item2": "2.500+ vidas transformadas",
+      "item3": "Atendimento São Paulo e Interior",
+      "item4": "Formação e atualização global"
     },
     "button": "Marcar uma consulta"
   },
@@ -43,23 +43,31 @@
   },
   "lineCta": {
     "text": "Agende sua consulta com o nosso especialista.",
-    "button": "Agendar consulta"
+    "button": "Agendar em Torrinha",
+    "button1": "Agendar em São Paulo"
+
   },
   "services": {
     "subtitle": "Tratamentos",
     "title": "Nossos tratamentos",
     "description": "Oferecemos soluções modernas para realçar sua beleza de forma segura e natural.",
     "treatments": {
-      "rhinoplasty": "Rinoplastia",
-      "liposuction": "Lipoaspiração",
-      "botox": "Botox",
-      "lipFiller": "Preenchimento Labial"
+      "botulinica": "Toxina Botulínica",
+      "colageno": "BIOESTIMULADOR DE COLÁGENO",
+      "hialuronico": "ÁCIDO HIALURÔNICO",
+      "skinbooster": "Skinbooster",
+      "blefaroplastia": "Blefaroplastia a Laser",
+      "plasma": "Jato de Plasma",
+      "fotona": "Fotona 5D",
+      "melasma": "Tratamentos para Melasma",
+      "tricologia": "Tricologia e queda de cabelo",
+      "gordura": "Gordura localizada"
     }
   },
   "doctor": {
     "subtitle": "Quem sou eu",
-    "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nemo velit corporis ullam. Ab repudiandae exercitationem amet sequi corrupti, aperiam saepe sint corporis neque blanditiis vel ad. Libero possimus officia frequentemente?",
-    "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe, iure maxime quidem cumque animi quae illo voluptas nem.",
+    "description1": "Sou o Dr. Leonardo Martinelli, médico apaixonado pela ciência, pelo cuidado com as pessoas e pelo impacto que a autoestima tem na vida de cada um. Me formei na UFPR e me especializei em Dermatologia, Medicina Estética, Tricologia e Cosmética Científica. Desde o início, sempre acreditei que meu papel na medicina vai além do tratamento — é sobre escutar, acolher e ajudar o paciente a se sentir bem com sua própria imagem.",
+    "description2": "A estética, para mim, não transforma quem você é. Ela revela o seu melhor, com leveza, naturalidade e respeito à sua essência.",
     "button": "Marcar uma consulta"
   },
   "form": {

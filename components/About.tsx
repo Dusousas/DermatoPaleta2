@@ -36,7 +36,7 @@ export default function About() {
           </article>
 
           <div className='mt-10 mx-auto lg:mx-0'>
-            <a className='bg-P1BlueM text-white px-6 py-4 font-medium' href=''>
+            <a className='bg-P1BlueM text-white px-6 py-4 font-medium' href='https://linktr.ee/leonardomartinelli?fbclid=PAZXh0bgNhZW0CMTEAAadVthTvcxnxmUpvkOztt1-KYP3U7C-y9SVxUbAB5azcoJEfAkie9deV1Mxm5A_aem_OwJu0Wusq2_Ap7hZ9KqvFw' target='_blank'>
               {t('button')}
             </a>
           </div>

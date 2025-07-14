@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaInstagramSquare, FaWhatsappSquare } from 'react-icons/fa';
 import { useTranslations } from 'next-intl';
 
 export default function Doctor() {
@@ -27,8 +26,8 @@ export default function Doctor() {
           </p>
 
           <article className='flex mt-4 justify-center lg:justify-start gap-2'>
-            <FaInstagramSquare className='text-3xl text-P1BlueM cursor-pointer' />
-            <FaWhatsappSquare className='text-3xl text-P1BlueM cursor-pointer' />
+            <a target='_blank' href="https://www.instagram.com/drleonardomartinelli/"><img className='hover:opacity-70' src="/instagram.png" alt="" /></a>
+            <a href=""><img className='hover:opacity-70' src="/whatsapp.png" alt="" /></a>
           </article>
 
           <div className='mt-6 flex justify-center lg:justify-start'>
