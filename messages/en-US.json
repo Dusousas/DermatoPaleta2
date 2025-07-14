@@ -61,7 +61,18 @@
       "melasma": "Melasma Treatments",
       "tricologia": "Trichology and hair loss",
       "gordura": "Localized fat"
-    }
+    },
+      "descriptions": {
+    "botulinica": "Suaviza rugas e linhas de expressão com aplicação precisa e segura. US",
+    "colageno": "Estimula a produção natural de colágeno para uma pele mais firme. US",
+    "hialuronico": "Hidratação profunda e preenchimento com aspecto natural. US",
+    "skinbooster": "Rejuvenescimento com hidratação intensa e brilho saudável. US",
+    "blefaroplastia": "Ameniza a flacidez das pálpebras sem necessidade de cortes. US",
+    "plasma": "Tratamento não invasivo para rejuvenescimento da pele. US",
+    "melasma": "Protocolos modernos para clarear manchas com segurança. US",
+    "tricologia": "Soluções personalizadas contra queda de cabelo e enfraquecimento. US",
+    "gordura": "Redução de gordura localizada com técnicas eficazes e seguras. US"
+  }
   },
   "doctor": {
     "subtitle": "Who I am",

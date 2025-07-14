@@ -47,23 +47,35 @@
     "button1": "Agendar em São Paulo"
 
   },
-  "services": {
-    "subtitle": "Tratamentos",
-    "title": "Nossos tratamentos",
-    "description": "Oferecemos soluções modernas para realçar sua beleza de forma segura e natural.",
-    "treatments": {
-      "botulinica": "Toxina Botulínica",
-      "colageno": "BIOESTIMULADOR DE COLÁGENO",
-      "hialuronico": "ÁCIDO HIALURÔNICO",
-      "skinbooster": "Skinbooster",
-      "blefaroplastia": "Blefaroplastia a Laser",
-      "plasma": "Jato de Plasma",
-      "fotona": "Fotona 5D",
-      "melasma": "Tratamentos para Melasma",
-      "tricologia": "Tricologia e queda de cabelo",
-      "gordura": "Gordura localizada"
-    }
+"services": {
+  "subtitle": "Tratamentos",
+  "title": "Nossos tratamentos",
+  "description": "Oferecemos soluções modernas para realçar sua beleza de forma segura e natural.",
+  "treatments": {
+    "botulinica": "Toxina Botulínica",
+    "colageno": "Bioestimulador de Colágeno",
+    "hialuronico": "Ácido Hialurônico",
+    "skinbooster": "Skinbooster",
+    "blefaroplastia": "Blefaroplastia a Laser",
+    "plasma": "Jato de Plasma",
+    "fotona": "Fotona 5D",
+    "melasma": "Tratamentos para Melasma",
+    "tricologia": "Tricologia e queda de cabelo",
+    "gordura": "Gordura localizada"
   },
+  "descriptions": {
+    "botulinica": "Suaviza rugas e linhas de expressão com aplicação precisa e segura.",
+    "colageno": "Estimula a produção natural de colágeno para uma pele mais firme.",
+    "hialuronico": "Hidratação profunda e preenchimento com aspecto natural.",
+    "skinbooster": "Rejuvenescimento com hidratação intensa e brilho saudável.",
+    "blefaroplastia": "Ameniza a flacidez das pálpebras sem necessidade de cortes.",
+    "plasma": "Tratamento não invasivo para rejuvenescimento da pele.",
+    "melasma": "Protocolos modernos para clarear manchas com segurança.",
+    "tricologia": "Soluções personalizadas contra queda de cabelo e enfraquecimento.",
+    "gordura": "Redução de gordura localizada com técnicas eficazes e seguras."
+  }
+},
+  
   "doctor": {
     "subtitle": "Quem sou eu",
     "description1": "Sou o Dr. Leonardo Martinelli, médico apaixonado pela ciência, pelo cuidado com as pessoas e pelo impacto que a autoestima tem na vida de cada um. Me formei na UFPR e me especializei em Dermatologia, Medicina Estética, Tricologia e Cosmética Científica. Desde o início, sempre acreditei que meu papel na medicina vai além do tratamento — é sobre escutar, acolher e ajudar o paciente a se sentir bem com sua própria imagem.",
