@@ -1,3 +1,4 @@
+
 {
   "navbar": {
     "home": "Home",
@@ -8,8 +9,8 @@
   },
   "main": {
     "subtitle": "Leonardo Martinelli",
-    "title": "Natural results with technology",
-    "description": "Dermatological treatments with cutting-edge technology and natural results. Consultations in São Paulo and Torrinha with Dr. Leonardo Martinelli, dermatologist trained at UFPR.",
+    "title": "Natural results with advanced technology",
+    "description": "Dermatological treatments with cutting-edge technology and natural results. Consultations available in São Paulo and Torrinha with Dr. Leonardo Martinelli, a dermatologist trained at UFPR.",
     "treatments": {
       "laser": "Body treatments and weight loss",
       "harmonization": "Hair loss and scalp health",
@@ -20,37 +21,37 @@
   "about": {
     "subtitle": "About us",
     "title": "Discover a new way to care for your skin",
-    "description1": "Specialized in dermatology and aesthetic medicine, with a focus on treatments that promote health, self-esteem, and natural beauty. With training in Dermatology, Aesthetic Medicine, Trichology, and Scientific Cosmetics, Dr. Leonardo offers an individualized approach, integrating science, aesthetics, and attentive care. His protocols include facial rejuvenation, hair health, and modern techniques to highlight each patient’s natural beauty.",
-    "description2": "Committed to ethics and constant professional development, Dr. Leonardo provides safe, effective care tailored to each individual’s needs.",
+    "description1": "Specialized in dermatology and aesthetic medicine, focused on treatments that promote health, self-esteem, and natural beauty. With training in Dermatology, Aesthetic Medicine, Trichology, and Scientific Cosmetics, Dr. Leonardo provides an individualized approach that combines science, aesthetics, and attentive care. His protocols include facial rejuvenation, hair health, and modern techniques designed to enhance the natural beauty of each patient.",
+    "description2": "Committed to ethics and continuous professional development, Dr. Leonardo offers safe, effective care tailored to each person's needs.",
     "items": {
-      "item1": "Technology and unique care",
+      "item1": "Technology and personalized care",
       "item2": "2,500+ lives transformed",
       "item3": "Consultations in São Paulo and the countryside",
-      "item4": "Global training and continuing education"
+      "item4": "Global education and ongoing training"
     },
-    "button": "Schedule an appointment"
+    "button": "Book an appointment"
   },
   "portfolio": {
     "before": "Before",
     "after": "After",
     "drag": "Drag",
-    "beforeAlt": "Before treatment",
-    "afterAlt": "After treatment",
+    "beforeAlt": "Before the treatment",
+    "afterAlt": "After the treatment",
     "subtitle": "Portfolio",
     "title": "Before & After Gallery",
     "highlight": "Real transformations, visible results.",
-    "description": "See the difference that high-performance dermatology can provide. Each image reflects a commitment to naturalness, safety, and excellence in every treatment.",
+    "description": "See the impact high-performance dermatology can make. Each image reflects a commitment to natural beauty, safety, and excellence in every treatment.",
     "button": "See more"
   },
   "lineCta": {
-    "text": "Schedule your consultation with our specialist.",
-    "button": "Schedule in Torrinha",
-    "button1": "Schedule in São Paulo"
+    "text": "Book your consultation with our specialist.",
+    "button": "Book in Torrinha",
+    "button1": "Book in São Paulo"
   },
   "services": {
     "subtitle": "Treatments",
     "title": "Our Treatments",
-    "description": "We offer modern solutions to enhance your beauty safely and naturally.",
+    "description": "We offer modern solutions to safely and naturally enhance your beauty.",
     "treatments": {
       "botulinica": "Botulinum Toxin",
       "colageno": "Collagen Biostimulator",
@@ -60,26 +61,52 @@
       "plasma": "Plasma Jet",
       "fotona": "Fotona 5D",
       "melasma": "Melasma Treatments",
-      "tricologia": "Trichology and hair loss",
-      "gordura": "Localized fat"
+      "tricologia": "Trichology and Hair Loss",
+      "gordura": "Localized Fat Reduction"
     },
-      "descriptions": {
-    "botulinica": "Suaviza rugas e linhas de expressão com aplicação precisa e segura. US",
-    "colageno": "Estimula a produção natural de colágeno para uma pele mais firme. US",
-    "hialuronico": "Hidratação profunda e preenchimento com aspecto natural. US",
-    "skinbooster": "Rejuvenescimento com hidratação intensa e brilho saudável. US",
-    "blefaroplastia": "Ameniza a flacidez das pálpebras sem necessidade de cortes. US",
-    "plasma": "Tratamento não invasivo para rejuvenescimento da pele. US",
-    "melasma": "Protocolos modernos para clarear manchas com segurança. US",
-    "tricologia": "Soluções personalizadas contra queda de cabelo e enfraquecimento. US",
-    "gordura": "Redução de gordura localizada com técnicas eficazes e seguras. US"
-  }
+    "descriptions": {
+      "botulinica": "Botulinum toxin is a powerful ally in reducing wrinkles and expression lines, giving your face a more relaxed, refreshed, and natural look. We use Dysport®, a globally recognized brand known for its high effectiveness, quick onset, and long-lasting results. In addition to facial rejuvenation, botulinum toxin is also used to treat bruxism, tension headaches, and hyperhidrosis (excessive sweating), improving comfort and quality of life.",
+      "colageno": "As we age, collagen production decreases, leading to sagging and loss of firmness. Collagen biostimulators are injected to naturally stimulate collagen production, enhancing skin texture, firmness, and facial and body contours. It’s a progressive and safe treatment with long-lasting, natural results—ideal for those who want to improve sagging without using volumizing fillers.",
+      "hialuronico": "Hyaluronic acid fillers are a safe and effective way to restore lost volume, smooth lines, and highlight natural facial features. Common areas include the lips, under-eyes, jawline, chin, and nasolabial folds. The treatment offers facial harmonization while respecting the individual characteristics of each patient.",
+      "skinbooster": "Skinbooster is a deep hydration treatment where a specific hyaluronic acid is injected into the inner layers of the skin without adding volume. The result is firmer, more radiant skin with smoother texture. Ideal for areas like the face, neck, chest, and hands—especially for dehydrated, tired-looking skin in need of revitalization.",
+      "blefaroplastia": "Non-surgical blepharoplasty is a modern and effective way to rejuvenate the eye area without incisions. Using advanced technologies such as CO₂ hybrid laser and plasma jet, this procedure tightens the eyelid skin, stimulates collagen, and enhances firmness, revealing a more youthful, open, and refreshed appearance.",
+      "plasma": "For milder cases or patients with more sensitive skin, plasma jet treatment may be recommended. It creates tiny retraction points on the skin’s surface, improving sagging through controlled healing. This is a great option for those seeking a less invasive procedure with quicker recovery.",
+      "melasma": "Melasma is a chronic condition characterized by brownish patches on the skin, primarily the face. It commonly affects women aged 20–50 and can be triggered or worsened by sun exposure, hormonal changes, genetics, and even stress.",
+      "tricologia": "Androgenetic alopecia (baldness) is a progressive condition that affects millions of men and women, often beginning at a young age. Beyond its aesthetic impact, it significantly affects self-esteem, social interactions, and emotional well-being.",
+      "gordura": "Localized fat is one of the most common body concerns, even among those with a healthy weight and lifestyle. Persistent fat can accumulate in areas like the abdomen, flanks, back, arms, and under the chin."
+    }
+  },
+  "questions": {
+    "subtitle": "Questions",
+    "title": "Frequently Asked Questions",
+    "items": {
+      "item1": {
+        "q": "Does non-surgical blepharoplasty replace traditional surgery?",
+        "a": "In many cases, yes. For patients with mild to moderate sagging, CO₂ hybrid laser offers an effective alternative, improving excess skin, lines, and eyelid texture without incisions or stitches."
+      },
+      "item2": {
+        "q": "Is the procedure painful?",
+        "a": "The session is well-tolerated and performed with topical anesthesia. It feels like a mild warming sensation, followed by redness and small scabs for a few days."
+      },
+      "item3": {
+        "q": "How many sessions are needed?",
+        "a": "Usually, 1 to 2 sessions are sufficient, depending on the level of sagging and the individual’s skin response."
+      },
+      "item4": {
+        "q": "How long do the results last?",
+        "a": "Results can last for years, especially when paired with proper skin care and overall health. Collagen continues to be produced for months after the procedure."
+      },
+      "item5": {
+        "q": "Is downtime required?",
+        "a": "Recovery is quick. There may be redness and small scabs that last 5–7 days, but most people return to their activities quickly with minor precautions."
+      }
+    }
   },
   "doctor": {
     "subtitle": "Who I am",
-    "description1": "I'm Dr. Leonardo Martinelli, a physician passionate about science, caring for people, and the impact self-esteem has on each person’s life. I graduated from UFPR and specialized in Dermatology, Aesthetic Medicine, Trichology, and Scientific Cosmetics. From the beginning, I’ve always believed that my role in medicine goes beyond treatment — it’s about listening, supporting, and helping each patient feel good about their own image.",
-    "description2": "For me, aesthetics doesn’t change who you are. It reveals your best, with lightness, naturalness, and respect for your essence.",
-    "button": "Schedule an appointment"
+    "description1": "I'm Dr. Leonardo Martinelli, a physician passionate about science, caring for people, and the profound impact self-esteem has on individuals. I graduated from UFPR and specialized in Dermatology, Aesthetic Medicine, Trichology, and Scientific Cosmetics. From day one, I’ve believed that medicine is more than treatment — it's about listening, welcoming, and helping each patient feel confident in their own skin.",
+    "description2": "For me, aesthetics doesn’t change who you are. It reveals your best self—with lightness, authenticity, and respect for your essence.",
+    "button": "Book an appointment"
   },
   "form": {
     "subtitle": "Get in touch",
@@ -97,3 +124,4 @@
     "rights": "All rights reserved"
   }
 }
+

@@ -46,37 +46,61 @@
     "text": "Agende sua consulta com o nosso especialista.",
     "button": "Agendar em Torrinha",
     "button1": "Agendar em São Paulo"
-
   },
-"services": {
-  "subtitle": "Tratamentos",
-  "title": "Nossos tratamentos",
-  "description": "Oferecemos soluções modernas para realçar sua beleza de forma segura e natural.",
-  "treatments": {
-    "botulinica": "Toxina Botulínica",
-    "colageno": "Bioestimulador de Colágeno",
-    "hialuronico": "Ácido Hialurônico",
-    "skinbooster": "Skinbooster",
-    "blefaroplastia": "Blefaroplastia a Laser",
-    "plasma": "Jato de Plasma",
-    "fotona": "Fotona 5D",
-    "melasma": "Tratamentos para Melasma",
-    "tricologia": "Tricologia e queda de cabelo",
-    "gordura": "Gordura localizada"
+  "services": {
+    "subtitle": "Tratamentos",
+    "title": "Nossos tratamentos",
+    "description": "Oferecemos soluções modernas para realçar sua beleza de forma segura e natural.",
+    "treatments": {
+      "botulinica": "Toxina Botulínica",
+      "colageno": "Bioestimulador de Colágeno",
+      "hialuronico": "Ácido Hialurônico",
+      "skinbooster": "Skinbooster",
+      "blefaroplastia": "Blefaroplastia a Laser",
+      "plasma": "Jato de Plasma",
+      "fotona": "Fotona 5D",
+      "melasma": "Tratamentos para Melasma",
+      "tricologia": "Tricologia e queda de cabelo",
+      "gordura": "Gordura localizada"
+    },
+    "descriptions": {
+      "botulinica": "A toxina botulínica é uma aliada poderosa no combate às rugas e linhas de expressão, promovendo um aspecto mais leve, descansado e natural ao rosto. Utilizamos Dysport®, marca reconhecida mundialmente pela alta eficácia, início de ação mais rápido e excelente durabilidade dos resultados. Além do rejuvenescimento facial, a toxina é indicada no tratamento de bruxismo, cefaleia tensional e hiperidrose (suor excessivo), trazendo mais conforto e qualidade de vida ao paciente. ",
+      "colageno": "Com o passar dos anos, nossa pele perde colágeno, o que resulta em flacidez e perda de sustentação. Os bioestimuladores de colágeno são aplicados para ativar naturalmente a produção dessa proteína essencial, melhorando firmeza, textura e contorno facial e corporal. O tratamento é progressivo e seguro, com resultados duradouros e aparência natural. Indicado para quem deseja tratar a flacidez sem recorrer a preenchedores volumizadores.  ",
+      "hialuronico": "O preenchimento com ácido hialurônico é uma técnica segura e eficaz para restaurar volumes perdidos, suavizar sulcos e realçar traços naturais do rosto. Indicado para regiões como lábios, olheiras, mandíbula, queixo e bigode chinês, o tratamento promove harmonização facial com naturalidade, respeitando a individualidade de cada paciente. ",
+      "skinbooster": "O skinbooster é um tratamento de hidratação profunda, que injeta ácido hialurônico específico nas camadas internas da pele, sem efeito de volume. O resultado é uma pele mais viçosa, firme, com textura suave e brilho natural. É ideal para tratar áreas como face, colo, pescoço e mãos, principalmente em peles desvitalizadas, desidratadas ou que precisam de uma revitalização completa. ",
+      "blefaroplastia": "A blefaroplastia sem cortes é um tratamento moderno e eficaz para rejuvenescer a região dos olhos sem a necessidade de cirurgia. Utilizamos duas tecnologias avançadas — o laser de CO₂ híbrido e o jato de plasma — que promovem uma contração precisa da pele das pálpebras, estimulam colágeno e melhoram a firmeza, resultando em um olhar mais jovem, aberto e descansado. ",
+      "plasma": "Para casos mais leves ou pacientes com pele mais sensível, o jato de plasma pode ser indicado. Ele gera pontos de retração na superfície da pele, promovendo melhora da flacidez com cicatrização controlada. É uma ótima opção para quem busca um procedimento mais superficial e com recuperação mais rápida. ",
+      "melasma": "O melasma é uma condição crônica que se manifesta por manchas acastanhadas na pele, principalmente no rosto, com maior frequência em mulheres entre 20 e 50 anos. Fatores como exposição solar, variações hormonais, predisposição genética e até estresse podem agravar o quadro. ",
+      "tricologia": "A calvície (alopecia androgenética) é uma condição progressiva que afeta milhões de homens e mulheres, podendo começar já na juventude. Mais do que uma preocupação estética, ela costuma impactar diretamente a autoestima, o convívio social e o bem-estar emocional de quem sofre com a perda dos fios. ",
+      "gordura": "A gordura localizada é uma das queixas corporais mais comuns, e mesmo pessoas com peso adequado ou bons hábitos podem apresentar acúmulos persistentes em regiões como abdômen, flancos, costas, braços e papada. "
+    }
   },
-  "descriptions": {
-    "botulinica": "A toxina botulínica é uma aliada poderosa no combate às rugas e linhas de expressão, promovendo um aspecto mais leve, descansado e natural ao rosto. Utilizamos Dysport®, marca reconhecida mundialmente pela alta eficácia, início de ação mais rápido e excelente durabilidade dos resultados. Além do rejuvenescimento facial, a toxina é indicada no tratamento de bruxismo, cefaleia tensional e hiperidrose (suor excessivo), trazendo mais conforto e qualidade de vida ao paciente. ",
-    "colageno": "Com o passar dos anos, nossa pele perde colágeno, o que resulta em flacidez e perda de sustentação. Os bioestimuladores de colágeno são aplicados para ativar naturalmente a produção dessa proteína essencial, melhorando firmeza, textura e contorno facial e corporal. O tratamento é progressivo e seguro, com resultados duradouros e aparência natural. Indicado para quem deseja tratar a flacidez sem recorrer a preenchedores volumizadores.  ",
-    "hialuronico": "Hidratação profunda e preenchimento com aspecto natural.",
-    "skinbooster": "Rejuvenescimento com hidratação intensa e brilho saudável.",
-    "blefaroplastia": "Ameniza a flacidez das pálpebras sem necessidade de cortes.",
-    "plasma": "Tratamento não invasivo para rejuvenescimento da pele.",
-    "melasma": "Protocolos modernos para clarear manchas com segurança.",
-    "tricologia": "Soluções personalizadas contra queda de cabelo e enfraquecimento.",
-    "gordura": "Redução de gordura localizada com técnicas eficazes e seguras."
-  }
-},
-  
+  "questions": {
+    "subtitle": "Dúvidas",
+    "title": "Dúvidas Frequentes",
+    "items": {
+      "item1": {
+        "q": "A blefaroplastia sem cortes substitui a cirurgia?",
+        "a": "Em muitos casos, sim. Para pacientes com flacidez leve a moderada, o laser de CO₂ híbrido oferece uma alternativa eficaz, com melhora no excesso de pele, linhas e textura da pálpebra, sem cortes ou pontos."
+      },
+      "item2": {
+        "q": "O procedimento dói?",
+        "a": "A sessão é bem tolerada e realizada com anestesia tópica. A sensação é semelhante a um leve aquecimento da pele, seguido de vermelhidão e formação de crostinhas finas por alguns dias."
+      },
+      "item3": {
+        "q": "Quantas sessões são necessárias?",
+        "a": "Em geral, 1 a 2 sessões são suficientes, dependendo do grau de flacidez e da resposta individual da pele."
+      },
+      "item4": {
+        "q": "Quanto tempo dura o resultado?",
+        "a": "Os resultados podem durar anos, especialmente quando associados a cuidados com a pele e manutenção da saúde geral. O colágeno estimulado continua sendo produzido por meses após o procedimento."
+      },
+      "item5": {
+        "q": "É necessário afastamento das atividades?",
+        "a": "A recuperação é rápida. Pode haver vermelhidão e crostinhas finas que duram de 5 a 7 dias, mas o retorno às atividades costuma ser rápido, com alguns cuidados."
+      }
+    }
+  },
   "doctor": {
     "subtitle": "Quem sou eu",
     "description1": "Sou o Dr. Leonardo Martinelli, médico apaixonado pela ciência, pelo cuidado com as pessoas e pelo impacto que a autoestima tem na vida de cada um. Me formei na UFPR e me especializei em Dermatologia, Medicina Estética, Tricologia e Cosmética Científica. Desde o início, sempre acreditei que meu papel na medicina vai além do tratamento — é sobre escutar, acolher e ajudar o paciente a se sentir bem com sua própria imagem.",

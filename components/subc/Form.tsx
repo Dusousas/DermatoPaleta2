@@ -52,7 +52,7 @@ export default function Form() {
         />
 
         <div className='mt-6 flex justify-center lg:justify-start'>
-          <button className='bg-P1BlueL text-white px-6 py-2 font-medium uppercase tracking-widest' type="submit">
+          <button className='bg-P2BlueL text-white px-6 py-2 font-medium uppercase tracking-widest' type="submit">
             {t('button')}
           </button>
         </div>
