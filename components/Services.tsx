@@ -64,9 +64,7 @@ export default function Services() {
   return (
     <section id='services' className='py-20 bg-P2Gray/30'>
       <div className='maxW'>
-        <h2 className='font-medium tracking-widest text-center uppercase'>
-          {t('subtitle')}
-        </h2>
+        <h2 className='font-medium tracking-widest text-center uppercase'>{t('subtitle')}</h2>
         <h1 className='font-semibold text-4xl mt-4 text-center'>
           {t('title')}
         </h1>
@@ -74,17 +72,17 @@ export default function Services() {
           {t('description')}
         </p>
 
-        <article className='flex flex-wrap gap-y-10 gap-5 mt-20 justify-center'>
+        <article className='flex flex-wrap gap-y-10 gap-5 mt-20 justify-center px-4'>
           {services.map((service, index) => (
-            <div key={service.id} className='flex flex-col items-center text-center max-w-[400px]'>
-              <div className='relative w-[400px] group overflow-hidden rounded-xl shadow-md'>
+            <div key={service.id} className='flex flex-col items-center text-center lg:max-w-[400px]'>
+              <div className='relative cursor-pointer group overflow-hidden rounded-xl shadow-md lg:w-[400px]'>
                 <img
-                  className='w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:brightness-50'
+                  className='w-full  h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:brightness-50'
                   src={service.image}
                   alt={t(`treatments.${service.key}`)}
                 />
-                <div className='absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                  <p className='text-white text-center px-6 py-4 text-lg font-medium leading-relaxed'>
+                <div className='absolute inset-0 bg-black/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                  <p className='text-white text-sm text-center px-2'>
                     {service.description}
                   </p>
                 </div>
@@ -94,7 +92,7 @@ export default function Services() {
                 <h1 className='text-5xl font-bold text-BrowP'>
                   {String(index + 1).padStart(2, '0')}
                 </h1>
-                <p className='text-md font-medium tracking-widest text-BrowP/70 uppercase'>
+                <p className='text-md font-medium tracking-widest uppercase'>
                   {t(`treatments.${service.key}`)}
                 </p>
               </div>

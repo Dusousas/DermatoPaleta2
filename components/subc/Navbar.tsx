@@ -21,6 +21,7 @@ export default function Navbar() {
     { id: "home", label: t("home") },
     { id: "about", label: t("about") },
     { id: "services", label: t("services") },
+    { id: "questions", label: t("questions") },
     { id: "contact", label: t("contact") },
   ];
 

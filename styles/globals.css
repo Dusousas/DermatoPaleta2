@@ -11,7 +11,7 @@ body,html {
 .maxW{
   max-width: 1620px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2%;
 }
 
 .bgMain{
@@ -32,4 +32,30 @@ p{
 
 h2{
   color: #B14D29;
+}
+
+
+/* PERGUNTAS */
+summary {
+  list-style: none; 
+  position: relative;
+  padding-right: 25px; /* espaço para a seta */
+  cursor: pointer;
+  background: linear-gradient(0deg, #2D405E -500%, transparent 90%);
+}
+
+.cardLinear {
+  background-color: #2D405E;
+  background: linear-gradient(0deg, #2D405E -500%, transparent 90%);
+}
+
+summary::after {
+  content: '🠗';
+  position: absolute;
+  right: 10px;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
 }

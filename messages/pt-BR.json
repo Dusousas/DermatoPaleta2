@@ -3,7 +3,8 @@
     "home": "Início",
     "about": "Sobre",
     "services": "Serviços",
-    "contact": "Contato"
+    "contact": "Contato",
+    "questions": "Dúvidas"
   },
   "main": {
     "subtitle": "Leonardo Martinelli",
@@ -64,8 +65,8 @@
     "gordura": "Gordura localizada"
   },
   "descriptions": {
-    "botulinica": "Suaviza rugas e linhas de expressão com aplicação precisa e segura.",
-    "colageno": "Estimula a produção natural de colágeno para uma pele mais firme.",
+    "botulinica": "A toxina botulínica é uma aliada poderosa no combate às rugas e linhas de expressão, promovendo um aspecto mais leve, descansado e natural ao rosto. Utilizamos Dysport®, marca reconhecida mundialmente pela alta eficácia, início de ação mais rápido e excelente durabilidade dos resultados. Além do rejuvenescimento facial, a toxina é indicada no tratamento de bruxismo, cefaleia tensional e hiperidrose (suor excessivo), trazendo mais conforto e qualidade de vida ao paciente. ",
+    "colageno": "Com o passar dos anos, nossa pele perde colágeno, o que resulta em flacidez e perda de sustentação. Os bioestimuladores de colágeno são aplicados para ativar naturalmente a produção dessa proteína essencial, melhorando firmeza, textura e contorno facial e corporal. O tratamento é progressivo e seguro, com resultados duradouros e aparência natural. Indicado para quem deseja tratar a flacidez sem recorrer a preenchedores volumizadores.  ",
     "hialuronico": "Hidratação profunda e preenchimento com aspecto natural.",
     "skinbooster": "Rejuvenescimento com hidratação intensa e brilho saudável.",
     "blefaroplastia": "Ameniza a flacidez das pálpebras sem necessidade de cortes.",

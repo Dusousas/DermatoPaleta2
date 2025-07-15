@@ -49,7 +49,7 @@ export default function Main() {
                 </div>
             </section>
 
-            <article className='flex flex-col gap-2 absolute bottom-4 right-4'>
+            <article className='flex flex-col gap-2 absolute bottom-4 right-4 z-10'>
                 <a target='_blank' href="https://www.instagram.com/drleonardomartinelli/"><img className='hover:opacity-70' src="/instagram.png" alt="" /></a>
                 <a href=""><img className='hover:opacity-70' src="/whatsapp.png" alt="" /></a>
             </article>
