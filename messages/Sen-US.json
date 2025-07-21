@@ -5,5 +5,232 @@
     "services": "Services",
     "contact": "Contact",
     "questions": "Questions"
+  },
+  "services": {
+    "treatments": {
+      "botulinica": "Botulinum Toxin",
+      "colageno": "Collagen Biostimulator",
+      "hialuronico": "Hyaluronic Acid",
+      "skinbooster": "Skinbooster",
+      "blefaroplastia": "Blepharoplasty",
+      "plasma": "Platelet Rich Plasma",
+      "melasma": "Melasma Treatment",
+      "tricologia": "Hair Treatment",
+      "gordura": "Localized Fat Treatment"
+    },
+    "descriptions": {
+      "botulinica": "Botulinum toxin is a powerful ally in fighting wrinkles and expression lines, promoting a lighter, rested and natural appearance to the face. We use Dysport®, a brand recognized worldwide for its high effectiveness, faster onset of action and excellent durability of results. In addition to facial rejuvenation, the toxin is indicated in the treatment of bruxism, tension headaches and hyperhidrosis (excessive sweating), bringing more comfort and quality of life to the patient.",
+      "colageno": "Over the years, our skin loses collagen, which results in sagging and loss of support. Collagen biostimulators are applied to naturally activate the production of this essential protein, improving firmness, texture and facial and body contour. The treatment is progressive and safe, with lasting results and natural appearance. Indicated for those who want to treat sagging without resorting to volumizing fillers.",
+      "hialuronico": "Hyaluronic acid filling is a safe and effective technique to restore lost volumes, soften grooves and enhance natural facial features. Indicated for regions such as lips, dark circles, jaw, chin and nasolabial folds, the treatment promotes facial harmonization with naturalness, respecting the individuality of each patient.",
+      "skinbooster": "Skinbooster is a deep hydration treatment that injects specific hyaluronic acid into the inner layers of the skin, without volume effect. The result is more vigorous, firm skin with a smooth texture and natural shine. It is ideal for treating areas such as face, décolletage, neck and hands, especially in devitalized, dehydrated skin or skin that needs complete revitalization.",
+      "blefaroplastia": "Non-surgical blepharoplasty is a modern and effective treatment to rejuvenate the eye area without the need for surgery. We use two advanced technologies — hybrid CO₂ laser and plasma jet — that promote precise contraction of the eyelid skin, stimulate collagen and improve firmness, resulting in a younger, more open and rested look.",
+      "plasma": "For milder cases or patients with more sensitive skin, plasma jet may be indicated. It generates retraction points on the skin surface, promoting improvement in sagging with controlled healing. It is a great option for those seeking a more superficial procedure with faster recovery.",
+      "melasma": "Melasma is a chronic condition that manifests as brownish spots on the skin, mainly on the face, more frequently in women between 20 and 50 years old. Factors such as sun exposure, hormonal variations, genetic predisposition and even stress can aggravate the condition.",
+      "tricologia": "Baldness (androgenetic alopecia) is a progressive condition that affects millions of men and women, and can start as early as youth. More than an aesthetic concern, it usually directly impacts self-esteem, social interaction and emotional well-being of those who suffer from hair loss.",
+      "gordura": "Localized fat is one of the most common body complaints, and even people with adequate weight or good habits may present persistent accumulations in regions such as abdomen, flanks, back, arms and double chin."
+    },
+    "faqs": {
+      "botulinica": [
+        {
+          "q": "Does botulinum toxin application hurt?",
+          "a": "The procedure is minimally invasive and generally well tolerated. Topical anesthetic can be used for greater comfort."
+        },
+        {
+          "q": "How long does the effect last?",
+          "a": "The effects usually last between 3 to 6 months, varying according to the patient's metabolism and care."
+        },
+        {
+          "q": "Can I have the procedure and return to work on the same day?",
+          "a": "Yes. Recovery is quick and you can resume your activities on the same day."
+        },
+        {
+          "q": "Is there a risk of having an expressionless face?",
+          "a": "When applied correctly, the goal is to soften expressions without compromising naturalness."
+        },
+        {
+          "q": "Does toxin only treat wrinkles?",
+          "a": "No. It is also indicated to treat bruxism, tension headaches and excessive sweating."
+        }
+      ],
+      "colageno": [
+        {
+          "q": "When do results start to appear?",
+          "a": "Usually after 30 days, with progressive improvement in the following months."
+        },
+        {
+          "q": "How many sessions are needed?",
+          "a": "It depends on the degree of sagging. In general, 1 to 3 annual sessions are recommended."
+        },
+        {
+          "q": "Is it possible to do it in other areas besides the face?",
+          "a": "Yes. It can be done on arms, abdomen, buttocks, among other regions with sagging."
+        },
+        {
+          "q": "Does the treatment hurt?",
+          "a": "It may cause slight discomfort, but is well tolerated. Local anesthesia is used if necessary."
+        },
+        {
+          "q": "Is there recovery time?",
+          "a": "Small bruises may appear, but return to activities is almost immediate."
+        }
+      ],
+      "hialuronico": [
+        {
+          "q": "Is the result immediate?",
+          "a": "Yes, the volume effect appears right after application, with subtle adjustments in the following days."
+        },
+        {
+          "q": "How long does the filling last?",
+          "a": "On average 9 to 18 months, depending on the area and patient's metabolism."
+        },
+        {
+          "q": "Can it make the face look artificial?",
+          "a": "No, as long as it's done with common sense and by a qualified professional."
+        },
+        {
+          "q": "What areas can be treated?",
+          "a": "Lips, dark circles, jaw, chin, nasolabial folds and more."
+        },
+        {
+          "q": "Is there risk of allergy?",
+          "a": "Very rare, as hyaluronic acid is a biocompatible substance with the human body."
+        }
+      ],
+      "skinbooster": [
+        {
+          "q": "Is skinbooster a filler?",
+          "a": "No. It hydrates deeply without volumizing effect, different from conventional hyaluronic acid."
+        },
+        {
+          "q": "How many sessions are indicated?",
+          "a": "Usually 3 initial sessions with semi-annual or annual maintenance."
+        },
+        {
+          "q": "Can I see results from the first application?",
+          "a": "Yes, the skin already shows more vigor and improvement in texture from the first session."
+        },
+        {
+          "q": "Which regions can I treat?",
+          "a": "Face, neck, décolletage and hands are the most common."
+        },
+        {
+          "q": "Does it work for oily skin?",
+          "a": "Yes. The focus is to hydrate deeply without making the skin heavy or oily."
+        }
+      ],
+      "blefaroplastia": [
+        {
+          "q": "Is anesthesia necessary?",
+          "a": "Not general anesthesia. Can be done with local anesthesia and light sedation, if necessary."
+        },
+        {
+          "q": "Does the procedure replace surgery?",
+          "a": "In mild to moderate cases, yes. For severe excess skin, surgery may be more indicated."
+        },
+        {
+          "q": "What technologies are used?",
+          "a": "We use hybrid CO₂ laser and plasma jet."
+        },
+        {
+          "q": "Is there recovery time?",
+          "a": "Yes, slight swelling and redness for a few days. Using sunglasses helps in recovery."
+        },
+        {
+          "q": "How many sessions do I need?",
+          "a": "Usually 1 to 3 sessions, with intervals of a few weeks."
+        }
+      ],
+      "plasma": [
+        {
+          "q": "Is plasma the same as laser?",
+          "a": "No. They are different technologies, but both stimulate collagen and improve skin firmness."
+        },
+        {
+          "q": "Is the treatment painful?",
+          "a": "May cause slight burning. Topical anesthetic is applied beforehand."
+        },
+        {
+          "q": "How long does it take to heal?",
+          "a": "About 5 to 7 days, with small scabs that disappear naturally."
+        },
+        {
+          "q": "How many sessions are needed?",
+          "a": "1 to 3 sessions, depending on the degree of sagging."
+        },
+        {
+          "q": "Does it work for any skin type?",
+          "a": "Brown or black skin should be evaluated individually to avoid risks of hyperpigmentation."
+        }
+      ],
+      "melasma": [
+        {
+          "q": "Is there a cure for melasma?",
+          "a": "There is no definitive cure, but it can be controlled with continuous treatment and discipline."
+        },
+        {
+          "q": "What is the best treatment?",
+          "a": "It depends on the type of melasma. May include lasers, peels, whitening creams and oral medications."
+        },
+        {
+          "q": "Does sun make melasma worse?",
+          "a": "Yes. It is essential to use sunscreen daily, even indoors."
+        },
+        {
+          "q": "How long before I see improvement?",
+          "a": "It may take 4 to 8 weeks to notice reduction in spots."
+        },
+        {
+          "q": "Can pregnant women treat melasma?",
+          "a": "Yes, but with specific protocols and safe products during pregnancy."
+        }
+      ],
+      "tricologia": [
+        {
+          "q": "Does the treatment work for female baldness?",
+          "a": "Yes. Androgenetic alopecia affects men and women and responds well to current treatments."
+        },
+        {
+          "q": "Is it possible to recover lost hair?",
+          "a": "If the follicles are active, yes. The sooner you start, the better the results."
+        },
+        {
+          "q": "What techniques are used?",
+          "a": "Microneedling, drug delivery, lasers, LED and topical or oral medications."
+        },
+        {
+          "q": "How long to see results?",
+          "a": "Usually 2 to 3 months, being a medium to long-term treatment."
+        },
+        {
+          "q": "Is it necessary to treat continuously?",
+          "a": "Yes. Maintenance is essential to preserve hair and prevent new hair loss."
+        }
+      ],
+      "gordura": [
+        {
+          "q": "Does the treatment really eliminate fat?",
+          "a": "Yes. Enzymes help break down localized fat and are naturally eliminated by the body."
+        },
+        {
+          "q": "How many sessions are needed?",
+          "a": "On average 3 to 6 sessions, depending on the region and body response."
+        },
+        {
+          "q": "Is it indicated for weight loss?",
+          "a": "No. It is indicated for those who are within normal weight and have localized accumulations."
+        },
+        {
+          "q": "What areas can I treat?",
+          "a": "Double chin, abdomen, flanks, back, arms, thighs."
+        },
+        {
+          "q": "Is there risk of sagging after the procedure?",
+          "a": "There may be, so we often combine with biostimulators or radiofrequency for better results."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved"
   }
 }
