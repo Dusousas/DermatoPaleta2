@@ -8,66 +8,30 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 const servicesData = {
   botulinica: {
     id: 1,
-    image: '/servicos/botulinica.jpg',
-    duration: '30-45 min',
-    recovery: '24-48h',
-    results: '3-7 dias',
   },
   colageno: {
     id: 2,
-    image: '/servicos/colageno.png',
-    duration: '45-60 min',
-    recovery: '2-3 dias',
-    results: '2-4 semanas',
   },
   hialuronico: {
     id: 3,
-    image: '/servicos/hialuronico.jpg',
-    duration: '30-60 min',
-    recovery: '24-48h',
-    results: 'Imediato',
   },
   skinbooster: {
     id: 4,
-    image: '/servicos/skinbooster.png',
-    duration: '30-45 min',
-    recovery: '24h',
-    results: '2-4 semanas',
   },
   blefaroplastia: {
     id: 5,
-    image: '/servicos/blefaroplastia.png',
-    duration: '60-90 min',
-    recovery: '7-10 dias',
-    results: '2-4 semanas',
   },
   plasma: {
     id: 6,
-    image: '/servicos/plasma.png',
-    duration: '45-60 min',
-    recovery: '3-5 dias',
-    results: '4-6 semanas',
   },
   melasma: {
     id: 8,
-    image: '/servicos/melasma.jpg',
-    duration: '30-45 min',
-    recovery: '5-7 dias',
-    results: '4-8 semanas',
   },
   tricologia: {
     id: 9,
-    image: '/servicos/tricologia.png',
-    duration: '60-90 min',
-    recovery: '24-48h',
-    results: '8-12 semanas',
   },
   gordura: {
     id: 10,
-    image: '/servicos/gordura.jpg',
-    duration: '45-90 min',
-    recovery: '3-7 dias',
-    results: '4-8 semanas',
   },
 };
 
@@ -90,7 +54,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
     return <div>Serviço não encontrado</div>;
   }
 
-  const { slug, data } = service;
+  const { slug } = service;
 
   return (
     <>
@@ -175,7 +139,6 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   };
 };
 
-// Props para cada página de serviço
 export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
   const slug = params?.slug as string;
 
