@@ -82,13 +82,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   const t = useTranslations('services');
   const router = useRouter();
 
-  if (router.isFallback) return <div>Carregando...</div>;
-  if (!service) return <div>Serviço não encontrado</div>;
+  if (router.isFallback) {
+    return <div>Carregando...</div>;
+  }
+
+  if (!service) {
+    return <div>Serviço não encontrado</div>;
+  }
 
   const { slug, data } = service;
-
-  // Recupera FAQs do JSON de tradução
-  const faqs = t.raw(`faqs.${slug}`) as { q: string; a: string }[] || [];
 
   return (
     <>
@@ -110,15 +112,16 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           <article className="absolute top-[150px] right-4 z-10">
             <LanguageSwitcher />
           </article>
-
           <h1 className="text-center text-4xl uppercase font-bold">
             {t(`treatments.${slug}`)}
           </h1>
 
+          {/* Descrição genérica ou traduzida */}
           <p className="text-center mt-2">
             {t(`descriptions.${slug}`)}
           </p>
 
+          {/* Imagens do tratamento */}
           <article className="flex flex-col gap-10 justify-center items-center mt-10 lg:flex-row">
             <img className="lg:w-[30%] h-[500px] object-cover" src="/after-1.JPG" alt="" />
             <img className="lg:w-[30%] h-[500px] object-cover" src="/before-1.JPG" alt="" />
@@ -127,27 +130,23 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         </div>
 
         <article className="flex flex-col lg:flex-row">
-          {/* FAQs dinâmicas */}
+          {/* Perguntas e respostas */}
           <article className="mt-10 bg-P2BlueD text-white px-4 py-20 lg:px-10 lg:w-1/2">
-            {faqs.length > 0 ? (
-              faqs.map((item, i) => (
-                <details key={i} className={i > 0 ? 'mt-4' : ''}>
-                  <summary className="text-text-white border border-text-white rounded-t-xl cursor-pointer p-4 font-semibold">
-                    {item.q}
-                  </summary>
-                  <p className="text-white font-Poppins border-x border-b border-text-white cardLinear p-4">
-                    {item.a}
-                  </p>
-                </details>
-              ))
-            ) : (
-              <p className="text-white">Nenhuma pergunta frequente cadastrada para este tratamento.</p>
-            )}
+            {Array.from({ length: 5 }).map((_, i) => (
+              <details key={i} className={i > 0 ? 'mt-4' : ''}>
+                <summary className="text-text-white border border-text-white rounded-t-xl cursor-pointer p-4 font-semibold">
+                  Pergunta {i + 1}
+                </summary>
+                <p className="text-white font-Poppins border-x border-b border-text-white cardLinear p-4">
+                  Resposta {i + 1}
+                </p>
+              </details>
+            ))}
           </article>
 
-          {/* Coluna secundária */}
+          {/* Coluna vazia ou outra info */}
           <article className="bg-P2Brown/80 px-10 py-10 lg:w-1/2 lg:mt-10">
-            {/* Conteúdo adicional */}
+            {/* Conteúdo futuro */}
           </article>
         </article>
       </section>
