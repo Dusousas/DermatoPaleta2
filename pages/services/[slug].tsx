@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useTranslations } from 'next-intl';
