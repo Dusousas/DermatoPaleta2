@@ -4,7 +4,6 @@ import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/router';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
-// Dados dos serviços
 const servicesData = {
   botulinica: {
     id: 1,
@@ -55,6 +54,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   }
 
   const { slug } = service;
+  const faqs = t.raw(`faqs.${slug}`) as Array<{ q: string; a: string }>;
 
   return (
     <>
@@ -80,12 +80,10 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {t(`treatments.${slug}`)}
           </h1>
 
-          {/* Descrição genérica ou traduzida */}
           <p className="text-center mt-2">
             {t(`descriptions.${slug}`)}
           </p>
 
-          {/* Imagens do tratamento */}
           <article className="flex flex-col gap-10 justify-center items-center mt-10 lg:flex-row">
             <img className="lg:w-[30%] h-[500px] object-cover" src="/after-1.JPG" alt="" />
             <img className="lg:w-[30%] h-[500px] object-cover" src="/before-1.JPG" alt="" />
@@ -93,24 +91,39 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           </article>
         </div>
 
+        {/* FAQS */}
         <article className="flex flex-col lg:flex-row">
-          {/* Perguntas e respostas */}
           <article className="mt-10 bg-P2BlueD text-white px-4 py-20 lg:px-10 lg:w-1/2">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <details key={i} className={i > 0 ? 'mt-4' : ''}>
-                <summary className="text-text-white border border-text-white rounded-t-xl cursor-pointer p-4 font-semibold">
-                  Pergunta {i + 1}
-                </summary>
-                <p className="text-white font-Poppins border-x border-b border-text-white cardLinear p-4">
-                  Resposta {i + 1}
-                </p>
-              </details>
-            ))}
+            <h2 className="text-2xl font-bold mb-6 text-center">
+              Perguntas Frequentes
+            </h2>
+            {faqs && faqs.length > 0 ? (
+              faqs.map((faq, i) => (
+                <details key={i} className={i > 0 ? 'mt-4' : ''}>
+                  <summary className="text-white border border-white rounded-t-xl cursor-pointer p-4 font-semibold hover:bg-white/10 transition-colors">
+                    {faq.q}
+                  </summary>
+                  <p className="text-white font-Poppins border-x border-b border-white cardLinear p-4">
+                    {faq.a}
+                  </p>
+                </details>
+              ))
+            ) : (
+              // Fallback caso não existam FAQs para o serviço
+              Array.from({ length: 5 }).map((_, i) => (
+                <details key={i} className={i > 0 ? 'mt-4' : ''}>
+                  <summary className="text-white border border-white rounded-t-xl cursor-pointer p-4 font-semibold">
+                    Pergunta {i + 1}
+                  </summary>
+                  <p className="text-white font-Poppins border-x border-b border-white cardLinear p-4">
+                    Resposta {i + 1}
+                  </p>
+                </details>
+              ))
+            )}
           </article>
-
-          {/* Coluna vazia ou outra info */}
           <article className="bg-P2Brown/80 px-10 py-10 lg:w-1/2 lg:mt-10">
-            {/* Conteúdo futuro */}
+            {/* Conteúdo adicional pode ser adicionado aqui */}
           </article>
         </article>
       </section>
@@ -118,7 +131,6 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   );
 }
 
-// Slugs e rotas dinâmicas com idioma
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const serviceKeys = Object.keys(servicesData);
 
