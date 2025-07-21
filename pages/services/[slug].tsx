@@ -1,5 +1,3 @@
-"use client"
-
 import React from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useTranslations } from 'next-intl';
@@ -44,7 +42,7 @@ interface ServiceDetailPageProps {
 }
 
 export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
-  const t = useTranslations('services');
+  const t = useTranslations();
   const router = useRouter();
 
   if (router.isFallback) {
@@ -56,7 +54,18 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   }
 
   const { slug } = service;
-  const faqs = t.raw(`faqs.${slug}`) as Array<{ q: string; a: string }>;
+  
+  // Tratamento seguro para buscar as FAQs
+  let faqs: Array<{ q: string; a: string }> = [];
+  
+  try {
+    const faqsData = t.raw(`services.faqs.${slug}`);
+    if (Array.isArray(faqsData)) {
+      faqs = faqsData;
+    }
+  } catch (error) {
+    console.warn(`FAQs not found for service: ${slug}`);
+  }
 
   return (
     <>
@@ -68,7 +77,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             <span className="text-gray-400">/</span>
             <a href="/#services" className="text-gray-500 hover:text-BrowP">Serviços</a>
             <span className="text-gray-400">/</span>
-            <span className="text-BrowP font-medium">{t(`treatments.${slug}`)}</span>
+            <span className="text-BrowP font-medium">{t(`services.treatments.${slug}`)}</span>
           </nav>
         </div>
       </article>
@@ -79,11 +88,11 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             <LanguageSwitcher />
           </article>
           <h1 className="text-center text-4xl uppercase font-bold">
-            {t(`treatments.${slug}`)}
+            {t(`services.treatments.${slug}`)}
           </h1>
 
           <p className="text-center mt-2">
-            {t(`descriptions.${slug}`)}
+            {t(`services.descriptions.${slug}`)}
           </p>
 
           <article className="flex flex-col gap-10 justify-center items-center mt-10 lg:flex-row">
