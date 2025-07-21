@@ -1,0 +1,47 @@
+{
+  "navbar": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "contact": "Contato",
+    "questions": "Dúvidas"
+  },
+  "services": {
+    "treatments": {
+      "botulinica": "Toxina Botulínica",
+      "colageno": "Bioestimulador de Colágeno",
+      "hialuronico": "Ácido Hialurônico",
+      "skinbooster": "Skinbooster",
+      "blefaroplastia": "Blefaroplastia",
+      "plasma": "Plasma Rico em Plaquetas",
+      "melasma": "Tratamento de Melasma",
+      "tricologia": "Tratamento Capilar",
+      "gordura": "Enzimas para Gordura Localizada"
+    },
+    "descriptions": {
+      "botulinica": "A toxina botulínica é uma aliada poderosa no combate às rugas e linhas de expressão, promovendo um aspecto mais leve, descansado e natural ao rosto. Utilizamos Dysport®, marca reconhecida mundialmente pela alta eficácia, início de ação mais rápido e excelente durabilidade dos resultados. Além do rejuvenescimento facial, a toxina é indicada no tratamento de bruxismo, cefaleia tensional e hiperidrose (suor excessivo), trazendo mais conforto e qualidade de vida ao paciente. ",
+      "colageno": "Com o passar dos anos, nossa pele perde colágeno, o que resulta em flacidez e perda de sustentação. Os bioestimuladores de colágeno são aplicados para ativar naturalmente a produção dessa proteína essencial, melhorando firmeza, textura e contorno facial e corporal. O tratamento é progressivo e seguro, com resultados duradouros e aparência natural. Indicado para quem deseja tratar a flacidez sem recorrer a preenchedores volumizadores.  ",
+      "hialuronico": "O preenchimento com ácido hialurônico é uma técnica segura e eficaz para restaurar volumes perdidos, suavizar sulcos e realçar traços naturais do rosto. Indicado para regiões como lábios, olheiras, mandíbula, queixo e bigode chinês, o tratamento promove harmonização facial com naturalidade, respeitando a individualidade de cada paciente. ",
+      "skinbooster": "O skinbooster é um tratamento de hidratação profunda, que injeta ácido hialurônico específico nas camadas internas da pele, sem efeito de volume. O resultado é uma pele mais viçosa, firme, com textura suave e brilho natural. É ideal para tratar áreas como face, colo, pescoço e mãos, principalmente em peles desvitalizadas, desidratadas ou que precisam de uma revitalização completa. ",
+      "blefaroplastia": "A blefaroplastia sem cortes é um tratamento moderno e eficaz para rejuvenescer a região dos olhos sem a necessidade de cirurgia. Utilizamos duas tecnologias avançadas — o laser de CO₂ híbrido e o jato de plasma — que promovem uma contração precisa da pele das pálpebras, estimulam colágeno e melhoram a firmeza, resultando em um olhar mais jovem, aberto e descansado. ",
+      "plasma": "Para casos mais leves ou pacientes com pele mais sensível, o jato de plasma pode ser indicado. Ele gera pontos de retração na superfície da pele, promovendo melhora da flacidez com cicatrização controlada. É uma ótima opção para quem busca um procedimento mais superficial e com recuperação mais rápida. ",
+      "melasma": "O melasma é uma condição crônica que se manifesta por manchas acastanhadas na pele, principalmente no rosto, com maior frequência em mulheres entre 20 e 50 anos. Fatores como exposição solar, variações hormonais, predisposição genética e até estresse podem agravar o quadro. ",
+      "tricologia": "A calvície (alopecia androgenética) é uma condição progressiva que afeta milhões de homens e mulheres, podendo começar já na juventude. Mais do que uma preocupação estética, ela costuma impactar diretamente a autoestima, o convívio social e o bem-estar emocional de quem sofre com a perda dos fios. ",
+      "gordura": "A gordura localizada é uma das queixas corporais mais comuns, e mesmo pessoas com peso adequado ou bons hábitos podem apresentar acúmulos persistentes em regiões como abdômen, flancos, costas, braços e papada. "
+    },
+    "questions": {
+      "botulinica": "A toxina botulínica é uma aliada poderosa no combate às rugas e linhas de expressão, promovendo um aspecto mais leve, descansado e natural ao rosto. Utilizamos Dysport®, marca reconhecida mundialmente pela alta eficácia, início de ação mais rápido e excelente durabilidade dos resultados. Além do rejuvenescimento facial, a toxina é indicada no tratamento de bruxismo, cefaleia tensional e hiperidrose (suor excessivo), trazendo mais conforto e qualidade de vida ao paciente. ",
+      "colageno": "Com o passar dos anos, nossa pele perde colágeno, o que resulta em flacidez e perda de sustentação. Os bioestimuladores de colágeno são aplicados para ativar naturalmente a produção dessa proteína essencial, melhorando firmeza, textura e contorno facial e corporal. O tratamento é progressivo e seguro, com resultados duradouros e aparência natural. Indicado para quem deseja tratar a flacidez sem recorrer a preenchedores volumizadores.  ",
+      "hialuronico": "O preenchimento com ácido hialurônico é uma técnica segura e eficaz para restaurar volumes perdidos, suavizar sulcos e realçar traços naturais do rosto. Indicado para regiões como lábios, olheiras, mandíbula, queixo e bigode chinês, o tratamento promove harmonização facial com naturalidade, respeitando a individualidade de cada paciente. ",
+      "skinbooster": "O skinbooster é um tratamento de hidratação profunda, que injeta ácido hialurônico específico nas camadas internas da pele, sem efeito de volume. O resultado é uma pele mais viçosa, firme, com textura suave e brilho natural. É ideal para tratar áreas como face, colo, pescoço e mãos, principalmente em peles desvitalizadas, desidratadas ou que precisam de uma revitalização completa. ",
+      "blefaroplastia": "A blefaroplastia sem cortes é um tratamento moderno e eficaz para rejuvenescer a região dos olhos sem a necessidade de cirurgia. Utilizamos duas tecnologias avançadas — o laser de CO₂ híbrido e o jato de plasma — que promovem uma contração precisa da pele das pálpebras, estimulam colágeno e melhoram a firmeza, resultando em um olhar mais jovem, aberto e descansado. ",
+      "plasma": "Para casos mais leves ou pacientes com pele mais sensível, o jato de plasma pode ser indicado. Ele gera pontos de retração na superfície da pele, promovendo melhora da flacidez com cicatrização controlada. É uma ótima opção para quem busca um procedimento mais superficial e com recuperação mais rápida. ",
+      "melasma": "O melasma é uma condição crônica que se manifesta por manchas acastanhadas na pele, principalmente no rosto, com maior frequência em mulheres entre 20 e 50 anos. Fatores como exposição solar, variações hormonais, predisposição genética e até estresse podem agravar o quadro. ",
+      "tricologia": "A calvície (alopecia androgenética) é uma condição progressiva que afeta milhões de homens e mulheres, podendo começar já na juventude. Mais do que uma preocupação estética, ela costuma impactar diretamente a autoestima, o convívio social e o bem-estar emocional de quem sofre com a perda dos fios. ",
+      "gordura": "A gordura localizada é uma das queixas corporais mais comuns, e mesmo pessoas com peso adequado ou bons hábitos podem apresentar acúmulos persistentes em regiões como abdômen, flancos, costas, braços e papada. "
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados"
+  }
+}
