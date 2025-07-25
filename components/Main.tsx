@@ -13,7 +13,7 @@ export default function Main() {
             <section className='bgMain relative'>
                 <div className='block absolute inset-0 bg-black/50 z-0' />
 
-                <article className='absolute top-4 right-4 z-10'>
+                <article className='absolute top-4 right-4 z-20'>
                     <LanguageSwitcher />
                 </article>
 

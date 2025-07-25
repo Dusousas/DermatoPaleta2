@@ -135,12 +135,10 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             )}
           </article>
 
-
-
-          {/* 50% direita */}
           <article className="bg-P2Brown/80 py-10 lg:w-1/2 lg:mt-10 lg:px-10">
             <Tabela />
           </article>
+          
         </article>
       </section>
     </>

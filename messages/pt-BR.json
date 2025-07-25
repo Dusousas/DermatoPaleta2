@@ -51,6 +51,8 @@
     "subtitle": "Tratamentos",
     "title": "Nossos tratamentos",
     "description": "Oferecemos soluções modernas para realçar sua beleza de forma segura e natural.",
+    "btn": "Ver mais detalhes",
+    "btncta": "Toque para saber mais",
     "treatments": {
       "botulinica": "Toxina Botulínica",
       "colageno": "Bioestimulador de Colágeno",

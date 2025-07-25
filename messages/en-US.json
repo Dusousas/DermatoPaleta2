@@ -52,6 +52,8 @@
     "subtitle": "Treatments",
     "title": "Our Treatments",
     "description": "We offer modern solutions to safely and naturally enhance your beauty.",
+    "btn": "See more details",
+    "btncta": "Tap to learn more",
     "treatments": {
       "botulinica": "Botulinum Toxin",
       "colageno": "Collagen Biostimulator",
