@@ -1,9 +1,14 @@
+// pages/services/[slug].tsx (arquivo principal refatorado)
 import React from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/router';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
-import Tabela from '@/components/subc/Tabela';
+import Breadcrumb from '@/components/subc/single/Breadcrumb';
+import ServiceHeader from '@/components/subc/single/ServiceHeader';
+import ServiceImages from '@/components/subc/single/ServiceImages';
+import ServiceFaqs from '@/components/subc/single/ServiceFaqs';
+import Tabela from '@/components/subc/single/Tabela';
+
 
 const servicesData = {
   botulinica: {
@@ -47,98 +52,25 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   const router = useRouter();
 
   if (router.isFallback) {
-    return <div>Carregando...</div>;
+    return <div>{t('common.loading')}</div>;
   }
 
   if (!service) {
-    return <div>Serviço não encontrado</div>;
+    return <div>{t('common.serviceNotFound')}</div>;
   }
 
   const { slug } = service;
 
-  // Tratamento seguro para buscar as FAQs
-  let faqs: Array<{ q: string; a: string }> = [];
-
-  try {
-    const faqsData = t.raw(`services.faqs.${slug}`);
-    if (Array.isArray(faqsData)) {
-      faqs = faqsData;
-    }
-  } catch (error) {
-    console.warn(`FAQs not found for service: ${slug}`);
-  }
-
   return (
     <>
-      {/* BREADCRUMB */}
-      <article className="bg-gray-50 py-4">
-        <div className="maxW">
-          <nav className="flex items-center space-x-2 text-sm">
-            <a href="/" className="text-gray-500 hover:text-BrowP">Início</a>
-            <span className="text-gray-400">/</span>
-            <a href="/#services" className="text-gray-500 hover:text-BrowP">Serviços</a>
-            <span className="text-gray-400">/</span>
-            <span className="text-BrowP font-medium">{t(`services.treatments.${slug}`)}</span>
-          </nav>
-        </div>
-      </article>
-
+      <Breadcrumb slug={slug} />
       <section className="pt-10">
-        <div className="maxW">
-          <article className="absolute top-[150px] right-4 z-10">
-            <LanguageSwitcher />
-          </article>
-          <h1 className="text-center text-4xl uppercase font-bold">
-            {t(`services.treatments.${slug}`)}
-          </h1>
+        <ServiceHeader slug={slug} />
+        <ServiceImages />
 
-          <p className="text-center mt-2">
-            {t(`services.descriptions.${slug}`)}
-          </p>
-
-          <article className="flex flex-col gap-10 justify-center items-center mt-10 lg:flex-row">
-            <img className="lg:w-[30%] h-[500px] object-cover" src="/after-1.JPG" alt="" />
-            <img className="lg:w-[30%] h-[500px] object-cover" src="/before-1.JPG" alt="" />
-            <img className="lg:w-[30%] h-[500px] object-cover" src="/after-1.JPG" alt="" />
-          </article>
-        </div>
-
-        {/* FAQS */}
         <article className="flex flex-col lg:flex-row">
-          <article className="mt-10 bg-P2BlueD text-white px-4 py-20 lg:px-10 lg:w-1/2">
-            <h2 className="text-2xl font-bold mb-6 text-center">
-              Perguntas Frequentes
-            </h2>
-            {faqs && faqs.length > 0 ? (
-              faqs.map((faq, i) => (
-                <details key={i} className={i > 0 ? 'mt-4' : ''}>
-                  <summary className="text-white border border-white rounded-t-xl cursor-pointer p-4 font-semibold hover:bg-white/10 transition-colors">
-                    {faq.q}
-                  </summary>
-                  <p className="text-white font-Poppins border-x border-b border-white cardLinear p-4">
-                    {faq.a}
-                  </p>
-                </details>
-              ))
-            ) : (
-              // Fallback caso não existam FAQs para o serviço
-              Array.from({ length: 5 }).map((_, i) => (
-                <details key={i} className={i > 0 ? 'mt-4' : ''}>
-                  <summary className="text-white border border-white rounded-t-xl cursor-pointer p-4 font-semibold">
-                    Pergunta {i + 1}
-                  </summary>
-                  <p className="text-white font-Poppins border-x border-b border-white cardLinear p-4">
-                    Resposta {i + 1}
-                  </p>
-                </details>
-              ))
-            )}
-          </article>
-
-          <article className="bg-P2Brown/80 py-10 lg:w-1/2 lg:mt-10 lg:px-10">
-            <Tabela />
-          </article>
-          
+          <ServiceFaqs slug={slug} />
+          <Tabela />
         </article>
       </section>
     </>

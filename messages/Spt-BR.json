@@ -6,6 +6,11 @@
     "contact": "Contato",
     "questions": "Dúvidas"
   },
+  "common": {
+    "loading": "Carregando...",
+    "serviceNotFound": "Serviço não encontrado",
+    "home": "Início"
+  },
   "services": {
     "treatments": {
       "botulinica": "Toxina Botulínica",
@@ -13,223 +18,285 @@
       "hialuronico": "Ácido Hialurônico",
       "skinbooster": "Skinbooster",
       "blefaroplastia": "Blefaroplastia",
-      "plasma": "Plasma Rico em Plaquetas",
+      "plasma": "Fotona 5D®️",
       "melasma": "Tratamento de Melasma",
       "tricologia": "Tratamento Capilar",
       "gordura": "Enzimas para Gordura Localizada"
     },
     "descriptions": {
-      "botulinica": "A toxina botulínica é uma aliada poderosa no combate às rugas e linhas de expressão, promovendo um aspecto mais leve, descansado e natural ao rosto. Utilizamos Dysport®, marca reconhecida mundialmente pela alta eficácia, início de ação mais rápido e excelente durabilidade dos resultados. Além do rejuvenescimento facial, a toxina é indicada no tratamento de bruxismo, cefaleia tensional e hiperidrose (suor excessivo), trazendo mais conforto e qualidade de vida ao paciente. ",
+      "botulinica": "A toxina botulínica é uma aliada poderosa no combate às rugas e linhas de expressão, promovendo um aspecto mais leve, descansado e natural ao rosto. Utilizamos Dysport®️, marca reconhecida mundialmente pela alta eficácia, início de ação mais rápido e excelente durabilidade dos resultados.Além do rejuvenescimento facial, a toxina é indicada no tratamento de bruxismo, cefaleia tensional e hiperidrose (suor excessivo), trazendo mais conforto e qualidade de vida ao paciente. ",
       "colageno": "Com o passar dos anos, nossa pele perde colágeno, o que resulta em flacidez e perda de sustentação. Os bioestimuladores de colágeno são aplicados para ativar naturalmente a produção dessa proteína essencial, melhorando firmeza, textura e contorno facial e corporal. O tratamento é progressivo e seguro, com resultados duradouros e aparência natural. Indicado para quem deseja tratar a flacidez sem recorrer a preenchedores volumizadores.  ",
-      "hialuronico": "O preenchimento com ácido hialurônico é uma técnica segura e eficaz para restaurar volumes perdidos, suavizar sulcos e realçar traços naturais do rosto. Indicado para regiões como lábios, olheiras, mandíbula, queixo e bigode chinês, o tratamento promove harmonização facial com naturalidade, respeitando a individualidade de cada paciente. ",
+      "hialuronico": "O preenchimento com ácido hialurônico é uma técnica segura e eficaz para restaurar volumes perdidos, suavizar sulcos e realçar traços naturais do rosto. Indicado para regiões como lábios, olheiras, mandíbula, queixo e bigode chinês, o tratamento promove harmonização facial com naturalidade, respeitando a individualidade de cada paciente. Com resultados imediatos, o tratamento proporciona uma expressão mais descansada, harmônica e luminosa. A aplicação é precisa, personalizada e feita com foco na naturalidade, equilíbrio facial e sofisticação. Uma escolha ideal para quem busca um rejuvenescimento sutil e eficaz. ",
       "skinbooster": "O skinbooster é um tratamento de hidratação profunda, que injeta ácido hialurônico específico nas camadas internas da pele, sem efeito de volume. O resultado é uma pele mais viçosa, firme, com textura suave e brilho natural. É ideal para tratar áreas como face, colo, pescoço e mãos, principalmente em peles desvitalizadas, desidratadas ou que precisam de uma revitalização completa. ",
-      "blefaroplastia": "A blefaroplastia sem cortes é um tratamento moderno e eficaz para rejuvenescer a região dos olhos sem a necessidade de cirurgia. Utilizamos duas tecnologias avançadas — o laser de CO₂ híbrido e o jato de plasma — que promovem uma contração precisa da pele das pálpebras, estimulam colágeno e melhoram a firmeza, resultando em um olhar mais jovem, aberto e descansado. ",
-      "plasma": "Para casos mais leves ou pacientes com pele mais sensível, o jato de plasma pode ser indicado. Ele gera pontos de retração na superfície da pele, promovendo melhora da flacidez com cicatrização controlada. É uma ótima opção para quem busca um procedimento mais superficial e com recuperação mais rápida. ",
-      "melasma": "O melasma é uma condição crônica que se manifesta por manchas acastanhadas na pele, principalmente no rosto, com maior frequência em mulheres entre 20 e 50 anos. Fatores como exposição solar, variações hormonais, predisposição genética e até estresse podem agravar o quadro. ",
-      "tricologia": "A calvície (alopecia androgenética) é uma condição progressiva que afeta milhões de homens e mulheres, podendo começar já na juventude. Mais do que uma preocupação estética, ela costuma impactar diretamente a autoestima, o convívio social e o bem-estar emocional de quem sofre com a perda dos fios. ",
-      "gordura": "A gordura localizada é uma das queixas corporais mais comuns, e mesmo pessoas com peso adequado ou bons hábitos podem apresentar acúmulos persistentes em regiões como abdômen, flancos, costas, braços e papada. "
+      "blefaroplastia": "Olhar renovado, sem bisturi. A blefaroplastia sem cortes é um tratamento moderno e eficaz para rejuvenescer a região dos olhos sem a necessidade de cirurgia. Utilizamos duas tecnologias avançadas — o laser de CO₂ híbrido e o jato de plasma — que promovem uma contração precisa da pele das pálpebras, estimulam colágeno e melhoram a firmeza, resultando em um olhar mais jovem, aberto e descansado. Por que o CO₂ híbrido se destaca? O laser de CO₂ híbrido combina dois tipos de feixe (ablativo e não ablativo) na mesma ponteira, atuando em múltiplas camadas da pele. Isso proporciona resultados mais eficazes, com menos tempo de recuperação, além de maior segurança e conforto. ",
+      "blefaroplastia2": "Jato de Plasma: uma alternativa delicada e precisa Para casos mais leves ou pacientes com pele mais sensível, o jato de plasma pode ser indicado. Ele gera pontos de retração na superfície da pele, promovendo melhora da flacidez com cicatrização controlada. É uma ótima opção para quem busca um procedimento mais superficial e com recuperação mais rápida.",
+      "plasma": "Tecnologia a laser de última geração para tratar flacidez, rugas, poros dilatados, textura irregular e falta de viço, em um único protocolo, sem agulhas e sem cirurgia. O Fotona 5D®️ combina cinco modos de laser em uma só sessão, atuando em diferentes camadas da pele com máxima precisão. Ele promove um lifting não invasivo e natural, com estímulo intenso de colágeno, melhorando firmeza, contorno facial, luminosidade e textura — inclusive ao redor dos olhos e da boca. É ideal tanto para quem busca prevenção do envelhecimento, quanto para peles já maduras, com sinais visíveis de flacidez e perda de elasticidade.",
+      "melasma": "O melasma é uma condição crônica que se manifesta por manchas acastanhadas na pele, principalmente no rosto, com maior frequência em mulheres entre 20 e 50 anos. Fatores como exposição solar, variações hormonais, predisposição genética e até estresse podem agravar o quadro. Apesar de não causar dor física, o melasma pode gerar profundo desconforto emocional, afetando diretamente a autoestima, a confiança e a qualidade de vida de quem convive com ele. Na nossa clínica, tratamos o melasma com uma abordagem individualizada e multidisciplinar, unindo tecnologia, ciência e cuidado contínuo.",
+      "tricologia": "Calvície: quando a queda de cabelo vai além da aparência A calvície (alopecia androgenética) é uma condição progressiva que afeta milhões de homens e mulheres, podendo começar já na juventude. Mais do que uma preocupação estética, ela costuma impactar diretamente a autoestima, o convívio social e o bem-estar emocional de quem sofre com a perda dos fios.",
+      "gordura": "A gordura localizada é uma das queixas corporais mais comuns, e mesmo pessoas com peso adequado ou bons hábitos podem apresentar acúmulos persistentes em regiões como abdômen, flancos, costas, braços e papada."
+    },
+    "faqsTitle": "Perguntas Frequentes",
+    "fallbackFaqs": {
+      "question": "Pergunta",
+      "answer": "Resposta"
     },
     "faqs": {
-  "botulinica": [
-    {
-      "q": "A aplicação de toxina botulínica dói?",
-      "a": "O procedimento é minimamente invasivo e geralmente bem tolerado. Pode-se utilizar anestésico tópico para maior conforto."
-    },
-    {
-      "q": "Quanto tempo dura o efeito?",
-      "a": "Os efeitos costumam durar entre 3 a 6 meses, variando conforme o metabolismo e cuidados do paciente."
-    },
-    {
-      "q": "Posso fazer o procedimento e voltar ao trabalho no mesmo dia?",
-      "a": "Sim. A recuperação é rápida e você pode retomar suas atividades no mesmo dia."
-    },
-    {
-      "q": "Existe risco de ficar com o rosto sem expressão?",
-      "a": "Quando aplicado corretamente, o objetivo é suavizar expressões sem comprometer a naturalidade."
-    },
-    {
-      "q": "A toxina trata apenas rugas?",
-      "a": "Não. Também é indicada para tratar bruxismo, enxaqueca tensional e suor excessivo."
+      "botulinica": [
+        {
+          "q": "O que diferencia o Dysport®️ de outras marcas?",
+          "a": "Dysport®️ se destaca por sua ação mais rápida e por proporcionar uma aparência mais suave e natural, além de apresentar excelente durabilidade dos resultados. Além disso, por seu peso molecular, é a escolha ideal para quem pratica atividade física com frequência."
+        },
+        {
+          "q": "A toxina botulínica deixa o rosto “congelado”?",
+          "a": "Não! Quando aplicada com técnica e respeitando a anatomia individual, a toxina suaviza as marcas de expressão sem comprometer a naturalidade."
+        },
+        {
+          "q": "Quanto tempo dura o efeito?",
+          "a": "Em média, de 4 a 6 meses, dependendo da resposta individual, área tratada e hábitos do paciente."
+        }
+      ],
+      "colageno": [
+        {
+          "q": "Qual a diferença entre bioestimulador e preenchimento?",
+          "a": "O bioestimulador não dá volume imediato, mas estimula seu próprio corpo a produzir colágeno, melhorando a firmeza e a qualidade da pele ao longo do tempo."
+        },
+        {
+          "q": "Quando vejo resultado?",
+          "a": "Os efeitos são progressivos, geralmente perceptíveis a partir de 30 a 60 dias após a aplicação, com melhora contínua nos meses seguintes."
+        },
+        {
+          "q": "Quantas sessões são necessárias?",
+          "a": "Geralmente, de 1 a 3 sessões ao ano, dependendo da substância utilizada (como Sculptra®️, Radiesse®️, entre outros) e do grau de flacidez."
+        },
+        {
+          "q": "Pode ser usado no corpo também?",
+          "a": "Sim, é excelente para regiões como braços, abdômen, glúteos, coxas e joelhos."
+        }
+      ],
+      "hialuronico": [
+        {
+          "q": "Os preenchimentos mudam o formato do rosto?",
+          "a": "Não necessariamente. Quando bem indicados, eles realçam seus traços naturais e restauram volumes perdidos, sem exageros."
+        },
+        {
+          "q": "O efeito é imediato?",
+          "a": "Sim, o resultado já aparece logo após a aplicação, com melhora progressiva nos dias seguintes."
+        },
+        {
+          "q": "Dura quanto tempo?",
+          "a": "Depende da área e do tipo de ácido usado, mas normalmente entre 9 e 18 meses."
+        },
+        {
+          "q": "Pode ser desfeito se eu não gostar?",
+          "a": "Sim. O ácido hialurônico é reversível com uma enzima chamada hialuronidase."
+        }
+      ],
+      "skinbooster": [
+        {
+          "q": "É um tipo de preenchimento?",
+          "a": "Não. Apesar de conter ácido hialurônico, o skinbooster tem foco hidratante e revitalizante, sem efeito de volume."
+        },
+        {
+          "q": "Quem pode fazer?",
+          "a": "É indicado para homens e mulheres, principalmente em peles desvitalizadas, ressecadas ou com sinais iniciais de envelhecimento."
+        },
+        {
+          "q": "Quais áreas posso tratar?",
+          "a": "Rosto, pescoço, colo e mãos são as mais comuns."
+        }
+      ],
+      "blefaroplastia": [
+        {
+          "q": "A blefaroplastia sem cortes substitui a cirurgia?",
+          "a": "Em muitos casos, sim. Para pacientes com flacidez leve a moderada, o laser de CO₂ híbrido oferece uma alternativa eficaz, com melhora no excesso de pele, linhas e textura da pálpebra, sem cortes ou pontos."
+        },
+        {
+          "q": "É necessário afastamento das atividades?",
+          "a": "A recuperação é rápida. Pode haver vermelhidão e crostinhas finas que duram de 5 a 7 dias, mas o retorno às atividades costuma ser rápido, com alguns cuidados."
+        },
+        {
+          "q": "O procedimento dói?",
+          "a": "A sessão é bem tolerada e realizada com anestesia tópica. A sensação é semelhante a um leve aquecimento da pele, seguido de vermelhidão e formação de crostinhas finas por alguns dias."
+        },
+        {
+          "q": "Quantas sessões são necessárias?",
+          "a": "Em geral, 1 a 2 sessões são suficientes, dependendo do grau de flacidez e da resposta individual da pele."
+        },
+        {
+          "q": "Quanto tempo dura o resultado?",
+          "a": "Os resultados podem durar anos, especialmente quando associados a cuidados com a pele e manutenção da saúde geral. O colágeno estimulado continua sendo produzido por meses após o procedimento."
+        }
+      ],
+      "plasma": [
+        {
+          "q": "O que diferencia o Fotona 5D®️ de outros lasers?",
+          "a": "Ele une cinco tecnologias diferentes em uma única sessão, tratando profundidade, superfície e colágeno interno, com uma abordagem completa e eficaz — algo que poucos equipamentos oferecem."
+        },
+        {
+          "q": "O procedimento dói?",
+          "a": "O procedimento é bem tolerado, a maioria dos pacientes relata apenas uma sensação de calor suave em algumas etapas do procedimento."
+        },
+        {
+          "q": "Qual é o tempo de recuperação?",
+          "a": "É possível retornar à rotina no mesmo dia. Pode haver vermelhidão leve ou um inchaço discreto nas primeiras horas, especialmente nas áreas mais sensíveis, como pálpebras e lábios."
+        },
+        {
+          "q": "Quantas sessões são necessárias?",
+          "a": "Em média, são indicadas 1 a 2 sessões por ano, dependendo da resposta da pele e do grau de envelhecimento. O estímulo de colágeno gerado pelo Fotona é profundo e sustentado por meses, promovendo melhora contínua e duradoura."
+        },
+        {
+          "q": "O Fotona substitui preenchimentos ou bioestimuladores?",
+          "a": "São abordagens diferentes. O Fotona estimula o colágeno naturalmente e melhora a qualidade da pele, enquanto preenchedores atuam em volume e estrutura. Em alguns casos, o melhor resultado vem da combinação dos dois"
+        }
+      ],
+      "melasma": [
+        {
+          "q": "Melasma tem cura?",
+          "a": "Não tem cura definitiva, mas pode ser controlado com tratamento contínuo e disciplina."
+        },
+        {
+          "q": "Qual o melhor tratamento?",
+          "a": "Depende do tipo de melasma. Pode incluir lasers, peelings, cremes clareadores e medicamentos orais."
+        },
+        {
+          "q": "O sol piora o melasma?",
+          "a": "Sim. É fundamental usar protetor solar diariamente, mesmo em ambientes fechados."
+        },
+        {
+          "q": "Em quanto tempo vejo melhora?",
+          "a": "Pode levar de 4 a 8 semanas para notar redução das manchas."
+        },
+        {
+          "q": "Gestantes podem tratar melasma?",
+          "a": "Sim, mas com protocolos específicos e produtos seguros durante a gestação."
+        }
+      ],
+      "tricologia": [
+        {
+          "q": "O tratamento serve para calvície feminina?",
+          "a": "Sim. A alopecia androgenética afeta homens e mulheres e responde bem aos tratamentos atuais."
+        },
+        {
+          "q": "É possível recuperar cabelos perdidos?",
+          "a": "Se os folículos estiverem ativos, sim. Quanto antes iniciar, melhores os resultados."
+        },
+        {
+          "q": "Quais técnicas são usadas?",
+          "a": "Microagulhamento, drug delivery, lasers, LED e medicamentos tópicos ou orais."
+        },
+        {
+          "q": "Leva quanto tempo para ver resultados?",
+          "a": "Geralmente de 2 a 3 meses, sendo um tratamento de médio a longo prazo."
+        },
+        {
+          "q": "É necessário tratar continuamente?",
+          "a": "Sim. Manutenção é essencial para preservar os fios e evitar nova queda."
+        }
+      ],
+      "gordura": [
+        {
+          "q": "Quantas sessões são necessárias para ver resultados?",
+          "a": "O número de sessões varia conforme a tecnologia utilizada e a resposta do organismo. Em média, são recomendadas de 3 a 5 sessões, com intervalos mensais. Já os tratamentos injetáveis, como enzimas, costumam apresentar melhora progressiva a partir da segunda ou terceira aplicação."
+        },
+        {
+          "q": "O tratamento com enzimas dói?",
+          "a": "O procedimento é bem tolerado. Utilizamos agulhas finas e, se necessário, anestesia tópica. Pode haver um leve ardor durante a aplicação e sensibilidade local por 1 ou 2 dias."
+        },
+        {
+          "q": "Há risco de engordar novamente na área tratada?",
+          "a": "As células de gordura eliminadas não se regeneram. No entanto, uma alimentação inadequada ou sedentarismo pode levar ao acúmulo de gordura remanescente em outras áreas. Por isso, os resultados são mais duradouros quando associados a bons hábitos."
+        },
+        {
+          "q": "Posso tratar gordura localizada e flacidez ao mesmo tempo?",
+          "a": "Sim. Associamos tecnologias corporais com efeito lipolítico e bioestimuladores para tratar gordura e estimular colágeno ao mesmo tempo, entregando um resultado mais firme, homogêneo e completo."
+        },
+        {
+          "q": "Existe tempo de recuperação?",
+          "a": "Os tratamentos são minimamente invasivos e não exigem afastamento das atividades. Pode ocorrer leve inchaço ou hematoma na região tratada, que desaparecem em poucos dias."
+        },
+        {
+          "q": "Qual é o melhor tratamento para mim?",
+          "a": "Tudo começa com uma avaliação médica personalizada. Durante a consulta, identificamos o tipo de gordura, a presença de flacidez e traçamos um plano de tratamento feito sob medida para o seu corpo"
+        }
+      ]
     }
-  ],
-  "colageno": [
-    {
-      "q": "Quando os resultados começam a aparecer?",
-      "a": "Normalmente após 30 dias, com melhora progressiva nos meses seguintes."
+  },
+  "treatmentInfo": {
+    "title": "Informações do Tratamento",
+    "labels": {
+      "treatment": "Tratamento",
+      "duration": "Duração",
+      "sessions": "Número de Sessões",
+      "interval": "Intervalo entre Sessões",
+      "results": "Tempo para Resultados"
     },
-    {
-      "q": "Quantas sessões são necessárias?",
-      "a": "Depende do grau de flacidez. Em geral, recomenda-se de 1 a 3 sessões anuais."
-    },
-    {
-      "q": "É possível fazer em outras áreas além do rosto?",
-      "a": "Sim. Pode ser feito em braços, abdômen, glúteos, entre outras regiões com flacidez."
-    },
-    {
-      "q": "O tratamento dói?",
-      "a": "Pode causar leve desconforto, mas é bem tolerado. Usa-se anestesia local se necessário."
-    },
-    {
-      "q": "Existe tempo de recuperação?",
-      "a": "Pequenos hematomas podem surgir, mas o retorno às atividades é quase imediato."
+    "disclaimer": "* Os resultados podem variar de acordo com cada paciente",
+    "scheduleButton": "Agendar Consulta",
+    "data": {
+      "botulinica": {
+        "nome": "Toxina Botulínica",
+        "duracao": "30-45 min",
+        "sessoes": "1 sessão",
+        "intervalo": "3-6 meses",
+        "resultados": "3-7 dias"
+      },
+      "colageno": {
+        "nome": "Bioestimulador de Colágeno",
+        "duracao": "45-60 min",
+        "sessoes": "2-3 sessões",
+        "intervalo": "30-45 dias",
+        "resultados": "4-8 semanas"
+      },
+      "hialuronico": {
+        "nome": "Ácido Hialurônico",
+        "duracao": "30-60 min",
+        "sessoes": "1-2 sessões",
+        "intervalo": "15-30 dias",
+        "resultados": "Imediato"
+      },
+      "skinbooster": {
+        "nome": "Skinbooster",
+        "duracao": "30-45 min",
+        "sessoes": "3 sessões",
+        "intervalo": "30 dias",
+        "resultados": "2-4 semanas"
+      },
+      "blefaroplastia": {
+        "nome": "Blefaroplastia sem Cortes",
+        "duracao": "60-90 min",
+        "sessoes": "1-3 sessões",
+        "intervalo": "30-45 dias",
+        "resultados": "4-6 semanas"
+      },
+      "plasma": {
+        "nome": "Fotona 5D®️",
+        "duracao": "45-60 min",
+        "sessoes": "1-3 sessões",
+        "intervalo": "30-45 dias",
+        "resultados": "2-4 semanas"
+      },
+      "melasma": {
+        "nome": "Tratamento de Melasma",
+        "duracao": "45-90 min",
+        "sessoes": "4-8 sessões",
+        "intervalo": "15-30 dias",
+        "resultados": "4-8 semanas"
+      },
+      "tricologia": {
+        "nome": "Tratamento Capilar",
+        "duracao": "60-90 min",
+        "sessoes": "6-12 sessões",
+        "intervalo": "15-30 dias",
+        "resultados": "8-12 semanas"
+      },
+      "gordura": {
+        "nome": "Enzimas para Gordura",
+        "duracao": "45-60 min",
+        "sessoes": "3-6 sessões",
+        "intervalo": "15-21 dias",
+        "resultados": "4-6 semanas"
+      }
     }
-  ],
-  "hialuronico": [
-    {
-      "q": "O resultado é imediato?",
-      "a": "Sim, o efeito de volume aparece logo após a aplicação, com ajustes sutis nos dias seguintes."
-    },
-    {
-      "q": "Quanto tempo dura o preenchimento?",
-      "a": "Em média de 9 a 18 meses, dependendo da área e metabolismo do paciente."
-    },
-    {
-      "q": "Pode deixar o rosto artificial?",
-      "a": "Não, desde que feito com bom senso e por profissional qualificado."
-    },
-    {
-      "q": "Quais áreas podem ser tratadas?",
-      "a": "Lábios, olheiras, mandíbula, queixo, bigode chinês e mais."
-    },
-    {
-      "q": "Tem risco de alergia?",
-      "a": "Muito raro, pois o ácido hialurônico é uma substância biocompatível com o organismo humano."
-    }
-  ],
-  "skinbooster": [
-    {
-      "q": "Skinbooster é um preenchimento?",
-      "a": "Não. Ele hidrata profundamente sem efeito volumizador, diferente do ácido hialurônico convencional."
-    },
-    {
-      "q": "Quantas sessões são indicadas?",
-      "a": "Geralmente 3 sessões iniciais com manutenção semestral ou anual."
-    },
-    {
-      "q": "Dá para ver resultado na primeira aplicação?",
-      "a": "Sim, a pele já apresenta mais viço e melhora na textura desde a primeira sessão."
-    },
-    {
-      "q": "Quais regiões posso tratar?",
-      "a": "Face, pescoço, colo e mãos são as mais comuns."
-    },
-    {
-      "q": "Serve para pele oleosa?",
-      "a": "Sim. O foco é hidratar profundamente sem deixar a pele pesada ou oleosa."
-    }
-  ],
-  "blefaroplastia": [
-    {
-      "q": "É necessário anestesia?",
-      "a": "Não é anestesia geral. Pode ser feita com anestesia local e leve sedação, se necessário."
-    },
-    {
-      "q": "O procedimento substitui cirurgia?",
-      "a": "Em casos leves a moderados, sim. Para excesso de pele severo, a cirurgia pode ser mais indicada."
-    },
-    {
-      "q": "Quais tecnologias são usadas?",
-      "a": "Usamos laser de CO₂ híbrido e jato de plasma."
-    },
-    {
-      "q": "Há tempo de recuperação?",
-      "a": "Sim, leve inchaço e vermelhidão por alguns dias. O uso de óculos escuros ajuda no pós."
-    },
-    {
-      "q": "Quantas sessões preciso fazer?",
-      "a": "Geralmente de 1 a 3 sessões, com intervalo de algumas semanas."
-    }
-  ],
-  "plasma": [
-    {
-      "q": "Plasma é a mesma coisa que laser?",
-      "a": "Não. São tecnologias distintas, mas ambas estimulam colágeno e melhoram a firmeza da pele."
-    },
-    {
-      "q": "O tratamento é doloroso?",
-      "a": "Pode causar ardência leve. É aplicado anestésico tópico antes."
-    },
-    {
-      "q": "Quanto tempo leva para cicatrizar?",
-      "a": "Cerca de 5 a 7 dias, com pequenas crostas que somem naturalmente."
-    },
-    {
-      "q": "Quantas sessões são necessárias?",
-      "a": "De 1 a 3 sessões, dependendo do grau de flacidez."
-    },
-    {
-      "q": "Serve para qualquer tipo de pele?",
-      "a": "Peles morenas ou negras devem ser avaliadas individualmente para evitar riscos de hiperpigmentação."
-    }
-  ],
-  "melasma": [
-    {
-      "q": "Melasma tem cura?",
-      "a": "Não tem cura definitiva, mas pode ser controlado com tratamento contínuo e disciplina."
-    },
-    {
-      "q": "Qual o melhor tratamento?",
-      "a": "Depende do tipo de melasma. Pode incluir lasers, peelings, cremes clareadores e medicamentos orais."
-    },
-    {
-      "q": "O sol piora o melasma?",
-      "a": "Sim. É fundamental usar protetor solar diariamente, mesmo em ambientes fechados."
-    },
-    {
-      "q": "Em quanto tempo vejo melhora?",
-      "a": "Pode levar de 4 a 8 semanas para notar redução das manchas."
-    },
-    {
-      "q": "Gestantes podem tratar melasma?",
-      "a": "Sim, mas com protocolos específicos e produtos seguros durante a gestação."
-    }
-  ],
-  "tricologia": [
-    {
-      "q": "O tratamento serve para calvície feminina?",
-      "a": "Sim. A alopecia androgenética afeta homens e mulheres e responde bem aos tratamentos atuais."
-    },
-    {
-      "q": "É possível recuperar cabelos perdidos?",
-      "a": "Se os folículos estiverem ativos, sim. Quanto antes iniciar, melhores os resultados."
-    },
-    {
-      "q": "Quais técnicas são usadas?",
-      "a": "Microagulhamento, drug delivery, lasers, LED e medicamentos tópicos ou orais."
-    },
-    {
-      "q": "Leva quanto tempo para ver resultados?",
-      "a": "Geralmente de 2 a 3 meses, sendo um tratamento de médio a longo prazo."
-    },
-    {
-      "q": "É necessário tratar continuamente?",
-      "a": "Sim. Manutenção é essencial para preservar os fios e evitar nova queda."
-    }
-  ],
-  "gordura": [
-    {
-      "q": "O tratamento elimina gordura mesmo?",
-      "a": "Sim. As enzimas ajudam na quebra da gordura localizada e são eliminadas naturalmente pelo corpo."
-    },
-    {
-      "q": "Quantas sessões são necessárias?",
-      "a": "Em média 3 a 6 sessões, dependendo da região e resposta do corpo."
-    },
-    {
-      "q": "É indicado para emagrecer?",
-      "a": "Não. É indicado para quem está dentro do peso e tem acúmulos localizados."
-    },
-    {
-      "q": "Quais áreas posso tratar?",
-      "a": "Papada, abdômen, flancos, costas, braços, coxas."
-    },
-    {
-      "q": "Há risco de flacidez após o procedimento?",
-      "a": "Pode haver, por isso muitas vezes associamos com bioestimuladores ou radiofrequência para melhor resultado."
-    }
-  ]
-}
-
   },
   "footer": {
     "rights": "Todos os direitos reservados"
