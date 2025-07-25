@@ -83,7 +83,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         </div>
       </article>
 
-      <section className="py-10">
+      <section className="pt-10">
         <div className="maxW">
           <article className="absolute top-[150px] right-4 z-10">
             <LanguageSwitcher />

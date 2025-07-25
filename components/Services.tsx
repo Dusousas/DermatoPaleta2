@@ -87,15 +87,49 @@ export default function Services() {
                   alt={t(`treatments.${service.key}`)}
                 />
 
+                {/* Overlay com indicador de "Saiba Mais" */}
+                <div className='absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center'>
+                  <div className='opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0'>
+                    <div className='bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg'>
+                      <span className='text-black font-semibold text-sm tracking-wide uppercase'>
+                        Saiba Mais
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Ícone de seta no canto superior direito */}
+                <div className='absolute top-4 right-4 bg-white/80 backdrop-blur-sm rounded-full p-2 opacity-70 group-hover:opacity-100 transition-all duration-300 transform group-hover:scale-110'>
+                  <svg 
+                    className='w-4 h-4 text-gray-700' 
+                    fill='none' 
+                    stroke='currentColor' 
+                    viewBox='0 0 24 24'
+                  >
+                    <path 
+                      strokeLinecap='round' 
+                      strokeLinejoin='round' 
+                      strokeWidth={2} 
+                      d='M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14' 
+                    />
+                  </svg>
+                </div>
+
               </Link>
 
               <div className='flex gap-1 items-center mt-2'>
                 <h1 className='text-5xl font-bold text-BrowP'>
                   {String(index + 1).padStart(2, '0')}
                 </h1>
-                <p className='text-md font-medium tracking-widest uppercase'>
-                  {t(`treatments.${service.key}`)}
-                </p>
+                <div className='flex flex-col items-start'>
+                  <p className='text-md font-medium tracking-widest uppercase'>
+                    {t(`treatments.${service.key}`)}
+                  </p>
+                  {/* Texto sutil indicando mais informações */}
+                  <span className='text-xs text-gray-500 mt-1 italic'>
+                    Clique para mais detalhes
+                  </span>
+                </div>
               </div>
             </div>
           ))}

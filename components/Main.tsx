@@ -11,7 +11,7 @@ export default function Main() {
         <>
 
             <section className='bgMain relative'>
-                <div className='block absolute inset-0 bg-white/30 z-0' />
+                <div className='block absolute inset-0 bg-black/50 z-0' />
 
                 <article className='absolute top-4 right-4 z-10'>
                     <LanguageSwitcher />
@@ -19,13 +19,13 @@ export default function Main() {
 
                 <div className='maxW flex flex-col justify-center h-full relative z-10'>
                     <article className='flex flex-col gap-4 lg:w-[60%]'>
-                        <h2 className="font-medium tracking-widest uppercase">
+                        <h2 className="font-medium tracking-widest uppercase text-center text-white lg:text-left">
                             {t('subtitle')}
                         </h2>
-                        <h1 className='font-semibold text-4xl lg:text-7xl'>
+                        <h1 className='font-semibold text-center text-4xl text-white lg:text-left'>
                             {t('title')}
                         </h1>
-                        <p className='font-semibold'>
+                        <p className='text-white text-center lg:text-left lg:text-white'>
                             {t('description')}
                         </p>
                     </article>
