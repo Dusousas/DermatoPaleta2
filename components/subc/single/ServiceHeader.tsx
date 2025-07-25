@@ -2,6 +2,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import ServiceExtra from './ServiceExtra';
 
 interface ServiceHeaderProps {
   slug: string;
@@ -43,6 +44,7 @@ export default function ServiceHeader({ slug }: ServiceHeaderProps) {
           {description2}
         </p>
       )}
+        <ServiceExtra treatment={slug} />
     </div>
   );
 }

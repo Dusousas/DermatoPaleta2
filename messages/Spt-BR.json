@@ -12,6 +12,54 @@
     "home": "Início"
   },
   "services": {
+    "extras": {
+      "melasma": [
+        {
+          "title": "Intradermoterapia com exossomos",
+          "description": "Uma das estratégias mais inovadoras e promissoras no tratamento do melasma. Os exossomos são nanopartículas com alto potencial regenerativo e anti-inflamatório, que ajudam a controlar a pigmentação e reparar os danos celulares, reduzindo manchas de forma mais eficaz e segura."
+        },
+        {
+          "title": "Mesoterapia com agentes clareadores",
+          "description": "Aplicação de ativos diretamente nas camadas da pele onde ocorre a produção excessiva de melanina. Essa técnica potencializa a ação clareadora de forma localizada e segura, sendo especialmente útil em casos de melasma mais resistentes ou recidivantes."
+        },
+        {
+          "title": "Home care com prescrição personalizada",
+          "description": "Associamos ao tratamento clínico uma formulação tópica e oral exclusiva, desenvolvida com ativos clareadores, antioxidantes e reguladores da melanogênese. Essa combinação atua na manutenção dos resultados, prevenindo recidivas e potencializando o efeito da terapia em consultório."
+        }
+      ],
+      "gordura": [
+        {
+          "title": "Tecnologias de ponta",
+          "description": "Utilizamos equipamentos que atuam profundamente no tecido adiposo, promovendo a quebra das células de gordura (lipólise), melhora da firmeza e estímulo de colágeno. Entre as opções disponíveis:"
+        },
+        {
+          "title": "Tratamentos injetáveis corporais (enzimas lipolíticas)",
+          "description": "As enzimas para gordura localizada são compostos que promovem a quebra seletiva da gordura e aceleram seu metabolismo. São aplicadas diretamente nas áreas de acúmulo, com segurança, técnica precisa e acompanhamento médico. É uma ótima alternativa para regiões como papada, abdômen inferior, flancos e culotes, com resultados progressivos e altamente satisfatórios."
+        },
+        {
+          "title": "Bioestimuladores corporais",
+          "description": "Quando a gordura localizada vem acompanhada de flacidez, associamos bioestimuladores como o ácido polilático ou hidroxapatita para promover firmeza, espessamento da pele e melhora na textura da região tratada, garantindo um resultado ainda mais completo."
+        }
+      ],
+      "tricologia": [
+        {
+          "title": "Exossomos capilares",
+          "description": "Uma das terapias mais inovadoras da atualidade. Os exossomos são nanopartículas com potente ação regenerativa, anti-inflamatória e estimulante, capazes de reativar folículos enfraquecidos e promover o crescimento de fios mais fortes e espessos. É um tratamento avançado, com resultados visíveis e duradouros."
+        },
+        {
+          "title": "Intradermoterapia com fatores de crescimento",
+          "description": "Consiste na aplicação de ativos diretamente no couro cabeludo, como vitaminas, peptídeos biomiméticos e fatores de crescimento, que melhoram a vascularização, nutrem os folículos e interrompem a queda."
+        },
+        {
+          "title": "Minoxidil e Dutasterida intradérmicos",
+          "description": "Uma alternativa moderna ao uso oral desses medicamentos. Ao serem aplicados diretamente no couro cabeludo, atuam de forma precisa nos folículos capilares, com máxima eficácia e praticamente sem efeitos colaterais sistêmicos."
+        },
+        {
+          "title": "Tratamento personalizado e acompanhamento constante",
+          "description": "Cada paciente passa por uma avaliação detalhada, com análise do couro cabeludo, hábitos, histórico familiar e exames complementares, quando necessário. Com isso, elaboramos um plano de tratamento exclusivo, que pode incluir protocolos em consultório e orientações para home care capilar. Nosso objetivo é devolver não só os fios, mas também a confiança, o bem-estar e a liberdade de se reconhecer no espelho com segurança"
+        }
+      ]
+    },
     "treatments": {
       "botulinica": "Toxina Botulínica",
       "colageno": "Bioestimulador de Colágeno",
