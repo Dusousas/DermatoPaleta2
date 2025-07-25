@@ -3,6 +3,7 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/router';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import Tabela from '@/components/subc/Tabela';
 
 const servicesData = {
   botulinica: {
@@ -54,10 +55,10 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   }
 
   const { slug } = service;
-  
+
   // Tratamento seguro para buscar as FAQs
   let faqs: Array<{ q: string; a: string }> = [];
-  
+
   try {
     const faqsData = t.raw(`services.faqs.${slug}`);
     if (Array.isArray(faqsData)) {
@@ -133,8 +134,12 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
               ))
             )}
           </article>
-          <article className="bg-P2Brown/80 px-10 py-10 lg:w-1/2 lg:mt-10">
-            {/* Conteúdo adicional pode ser adicionado aqui */}
+
+
+
+          {/* 50% direita */}
+          <article className="bg-P2Brown/80 py-10 lg:w-1/2 lg:mt-10 lg:px-10">
+            <Tabela />
           </article>
         </article>
       </section>
@@ -147,14 +152,14 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
 
   const paths = locales
     ? locales.flatMap(locale =>
-        serviceKeys.map(slug => ({
-          params: { slug },
-          locale,
-        }))
-      )
-    : serviceKeys.map(slug => ({
+      serviceKeys.map(slug => ({
         params: { slug },
-      }));
+        locale,
+      }))
+    )
+    : serviceKeys.map(slug => ({
+      params: { slug },
+    }));
 
   return {
     paths,
