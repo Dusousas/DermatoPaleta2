@@ -6,177 +6,212 @@
     "contact": "Contact",
     "questions": "Questions"
   },
+  "common": {
+    "loading": "Loading...",
+    "serviceNotFound": "Service not found",
+    "home": "Home"
+  },
   "services": {
+    "extras": {
+      "melasma": [
+        {
+          "title": "Intradermotherapy with exosomes",
+          "description": "One of the most innovative and promising strategies in melasma treatment. Exosomes are nanoparticles with high regenerative and anti‑inflammatory potential, which help control pigmentation and repair cellular damage, reducing spots more effectively and safely."
+        },
+        {
+          "title": "Mesotherapy with brightening agents",
+          "description": "Active ingredients applied directly into the skin layers where excess melanin production occurs. This technique enhances the brightening action in a localized and safe manner, especially useful in more resistant or recurrent melasma cases."
+        },
+        {
+          "title": "Home care with personalized prescription",
+          "description": "We combine clinical treatment with an exclusive topical and oral formulation developed with brightening actives, antioxidants and melanogenesis regulators. This combination helps maintain results, prevent relapses and enhance the effect of in‑office therapy."
+        }
+      ],
+      "gordura": [
+        {
+          "title": "Cutting‑edge technologies",
+          "description": "We use equipment that works deeply in adipose tissue, promoting fat cell breakdown (lipolysis), improved firmness and collagen stimulation. Among the available options:"
+        },
+        {
+          "title": "Injectable body treatments (lipolytic enzymes)",
+          "description": "Enzymes for localized fat are compounds that promote selective fat breakdown and accelerate metabolism. They are applied directly to accumulation areas safely, with precise technique and medical supervision. An excellent alternative for regions such as double chin, lower abdomen, flanks and saddlebags, with progressive and highly satisfactory results."
+        },
+        {
+          "title": "Body biostimulators",
+          "description": "When localized fat is accompanied by sagging, we combine biostimulators such as poly‑L‑lactic acid or hydroxyapatite to promote firmness, skin thickening and improve texture in the treated region, ensuring an even more complete result."
+        }
+      ],
+      "tricologia": [
+        {
+          "title": "Capillary exosomes",
+          "description": "One of today’s most innovative therapies. Exosomes are nanoparticles with potent regenerative, anti‑inflammatory and stimulating action, capable of reactivating weakened follicles and promoting growth of stronger and thicker hair. It’s an advanced treatment with visible and lasting results."
+        },
+        {
+          "title": "Intradermotherapy with growth factors",
+          "description": "Consists of applying actives directly to the scalp, such as vitamins, biomimetic peptides and growth factors, which improve vascularization, nourish follicles and stop hair loss."
+        },
+        {
+          "title": "Intracutaneous Minoxidil and Dutasteride",
+          "description": "A modern alternative to oral use of these medications. When applied directly to the scalp, they act precisely on hair follicles, with maximum efficacy and virtually no systemic side effects."
+        },
+        {
+          "title": "Personalized treatment and continuous follow‑up",
+          "description": "Each patient undergoes a detailed evaluation including scalp analysis, habits, family history and complementary exams when necessary. Based on that, we design an exclusive treatment plan that may include in‑office protocols and home hair care guidance. Our goal is to restore not only the strands, but also confidence, well‑being and the freedom to recognize yourself in the mirror with certainty."
+        }
+      ]
+    },
     "treatments": {
       "botulinica": "Botulinum Toxin",
       "colageno": "Collagen Biostimulator",
       "hialuronico": "Hyaluronic Acid",
       "skinbooster": "Skinbooster",
       "blefaroplastia": "Blepharoplasty",
-      "plasma": "Platelet Rich Plasma",
+      "plasma": "Fotona 5D®️",
       "melasma": "Melasma Treatment",
       "tricologia": "Hair Treatment",
       "gordura": "Localized Fat Treatment"
     },
     "descriptions": {
-      "botulinica": "Botulinum toxin is a powerful ally in fighting wrinkles and expression lines, promoting a lighter, rested and natural appearance to the face. We use Dysport®, a brand recognized worldwide for its high effectiveness, faster onset of action and excellent durability of results. In addition to facial rejuvenation, the toxin is indicated in the treatment of bruxism, tension headaches and hyperhidrosis (excessive sweating), bringing more comfort and quality of life to the patient.",
-      "colageno": "Over the years, our skin loses collagen, which results in sagging and loss of support. Collagen biostimulators are applied to naturally activate the production of this essential protein, improving firmness, texture and facial and body contour. The treatment is progressive and safe, with lasting results and natural appearance. Indicated for those who want to treat sagging without resorting to volumizing fillers.",
-      "hialuronico": "Hyaluronic acid filling is a safe and effective technique to restore lost volumes, soften grooves and enhance natural facial features. Indicated for regions such as lips, dark circles, jaw, chin and nasolabial folds, the treatment promotes facial harmonization with naturalness, respecting the individuality of each patient.",
-      "skinbooster": "Skinbooster is a deep hydration treatment that injects specific hyaluronic acid into the inner layers of the skin, without volume effect. The result is more vigorous, firm skin with a smooth texture and natural shine. It is ideal for treating areas such as face, décolletage, neck and hands, especially in devitalized, dehydrated skin or skin that needs complete revitalization.",
-      "blefaroplastia": "Non-surgical blepharoplasty is a modern and effective treatment to rejuvenate the eye area without the need for surgery. We use two advanced technologies — hybrid CO₂ laser and plasma jet — that promote precise contraction of the eyelid skin, stimulate collagen and improve firmness, resulting in a younger, more open and rested look.",
-      "plasma": "For milder cases or patients with more sensitive skin, plasma jet may be indicated. It generates retraction points on the skin surface, promoting improvement in sagging with controlled healing. It is a great option for those seeking a more superficial procedure with faster recovery.",
-      "melasma": "Melasma is a chronic condition that manifests as brownish spots on the skin, mainly on the face, more frequently in women between 20 and 50 years old. Factors such as sun exposure, hormonal variations, genetic predisposition and even stress can aggravate the condition.",
-      "tricologia": "Baldness (androgenetic alopecia) is a progressive condition that affects millions of men and women, and can start as early as youth. More than an aesthetic concern, it usually directly impacts self-esteem, social interaction and emotional well-being of those who suffer from hair loss.",
-      "gordura": "Localized fat is one of the most common body complaints, and even people with adequate weight or good habits may present persistent accumulations in regions such as abdomen, flanks, back, arms and double chin."
+      "botulinica": "Botulinum toxin is a powerful ally in combating wrinkles and expression lines, promoting a lighter, rested and natural facial appearance. We use Dysport®️, a brand worldwide recognized for high efficacy, faster onset and excellent durability of results. In addition to facial rejuvenation, the toxin is indicated for treating bruxism, tension headaches and hyperhidrosis (excessive sweating), bringing more comfort and quality of life to the patient.",
+      "colageno": "Over time, our skin loses collagen, resulting in sagging and loss of support. Collagen biostimulators are applied to naturally activate the production of this essential protein, improving firmness, texture and facial and body contour. The treatment is progressive and safe, with long-lasting results and a natural appearance. It’s indicated for those who want to treat sagging without resorting to volumizing fillers.",
+      "hialuronico": "Hyaluronic acid filler is a safe and effective technique to restore lost volume, soften folds and enhance natural facial features. Indicated for regions such as lips, dark circles, jawline, chin and nasolabial folds, the treatment promotes facial harmonization with naturalness, respecting each patient’s individuality. With immediate results, the procedure provides a more rested, harmonious and luminous expression. The application is precise, personalized and focused on naturalness, facial balance and sophistication. An ideal choice for those seeking subtle and effective rejuvenation.",
+      "skinbooster": "Skinbooster is a deep hydration treatment that injects specific hyaluronic acid into the inner layers of the skin, without adding volume. The result is more vital, firm skin with smooth texture and natural glow. It’s ideal for treating areas such as face, décolleté, neck and hands, especially in devitalized, dehydrated skin or skin needing complete revitalization.",
+      "blefaroplastia": "Renewed eyes without surgery. Non‑surgical blepharoplasty is a modern and effective treatment to rejuvenate the eye area without surgical incisions. We use two advanced technologies — hybrid CO₂ laser and plasma jet — that promote precise contraction of eyelid skin, stimulate collagen and improve firmness, resulting in a more youthful, open and rested appearance. Why does hybrid CO₂ stand out? The hybrid CO₂ laser combines ablative and non‑ablative beams in the same handpiece, acting on multiple skin layers simultaneously. This yields more effective results, shorter recovery time, and greater safety and comfort.",
+      "blefaroplastia2": "Plasma jet: a delicate and precise alternative. For milder cases or patients with more sensitive skin, plasma jet may be indicated. It creates retraction points on the skin surface, improving sagging with controlled healing. It’s an excellent option for those seeking a more superficial procedure with faster recovery.",
+      "plasma": "State‑of‑the‑art laser technology to treat sagging, wrinkles, enlarged pores, irregular texture and loss of glow in a single protocol, with no needles and no surgery. Fotona 5D®️ combines five laser modes in one session, working on different skin layers with maximum precision. It promotes a non‑invasive and natural lifting, with intense collagen stimulation, improving firmness, facial contour, luminosity and texture — including around the eyes and mouth. Ideal both for prevention of aging and for mature skin with visible signs of sagging and elasticity loss.",
+      "melasma": "Melasma is a chronic condition characterized by brownish patches on the skin, mainly on the face, more common in women aged 20 to 50. Factors such as sun exposure, hormonal fluctuations, genetic predisposition and even stress can aggravate it. Although it doesn’t cause physical pain, melasma can cause deep emotional discomfort, directly affecting self‑esteem, confidence and quality of life. At our clinic, we treat melasma with an individualized and multidisciplinary approach, combining technology, science and continuous care.",
+      "tricologia": "Baldness: when hair loss goes beyond aesthetics. Androgenetic alopecia is a progressive condition that affects millions of men and women, and can begin in youth. More than a cosmetic concern, it often impacts self‑esteem, social life and emotional well‑being.",
+      "gordura": "Localized fat is one of the most common body complaints, and even people with appropriate weight or good habits may have persistent accumulations in regions such as abdomen, flanks, back, arms and double chin."
+    },
+    "faqsTitle": "Frequently Asked Questions",
+    "fallbackFaqs": {
+      "question": "Question",
+      "answer": "Answer"
     },
     "faqs": {
       "botulinica": [
         {
-          "q": "Does botulinum toxin application hurt?",
-          "a": "The procedure is minimally invasive and generally well tolerated. Topical anesthetic can be used for greater comfort."
+          "q": "What sets Dysport®️ apart from other brands?",
+          "a": "Dysport®️ stands out for its faster action and ability to deliver a smoother, more natural appearance, as well as excellent longevity of results. Additionally, due to its molecular weight, it’s an ideal choice for those who regularly engage in physical activity."
+        },
+        {
+          "q": "Does botulinum toxin leave the face “frozen”?",
+          "a": "No! When applied with proper technique and respecting individual anatomy, the toxin softens expression lines without compromising naturalness."
         },
         {
           "q": "How long does the effect last?",
-          "a": "The effects usually last between 3 to 6 months, varying according to the patient's metabolism and care."
-        },
-        {
-          "q": "Can I have the procedure and return to work on the same day?",
-          "a": "Yes. Recovery is quick and you can resume your activities on the same day."
-        },
-        {
-          "q": "Is there a risk of having an expressionless face?",
-          "a": "When applied correctly, the goal is to soften expressions without compromising naturalness."
-        },
-        {
-          "q": "Does toxin only treat wrinkles?",
-          "a": "No. It is also indicated to treat bruxism, tension headaches and excessive sweating."
+          "a": "On average, 4 to 6 months, depending on individual response, treated area and patient habits."
         }
       ],
       "colageno": [
         {
-          "q": "When do results start to appear?",
-          "a": "Usually after 30 days, with progressive improvement in the following months."
+          "q": "What’s the difference between a biostimulator and a filler?",
+          "a": "A biostimulator doesn’t add immediate volume, but stimulates your body to produce collagen, improving firmness and skin quality over time."
+        },
+        {
+          "q": "When will I see results?",
+          "a": "Effects are progressive, usually noticeable from 30 to 60 days after application, with ongoing improvement in the following months."
         },
         {
           "q": "How many sessions are needed?",
-          "a": "It depends on the degree of sagging. In general, 1 to 3 annual sessions are recommended."
+          "a": "Typically 1 to 3 sessions per year, depending on the product used (such as Sculptra®️, Radiesse®️, among others) and degree of sagging."
         },
         {
-          "q": "Is it possible to do it in other areas besides the face?",
-          "a": "Yes. It can be done on arms, abdomen, buttocks, among other regions with sagging."
-        },
-        {
-          "q": "Does the treatment hurt?",
-          "a": "It may cause slight discomfort, but is well tolerated. Local anesthesia is used if necessary."
-        },
-        {
-          "q": "Is there recovery time?",
-          "a": "Small bruises may appear, but return to activities is almost immediate."
+          "q": "Can it be used on the body too?",
+          "a": "Yes, it’s excellent for areas like arms, abdomen, buttocks, thighs and knees."
         }
       ],
       "hialuronico": [
         {
-          "q": "Is the result immediate?",
-          "a": "Yes, the volume effect appears right after application, with subtle adjustments in the following days."
+          "q": "Do fillers change the shape of the face?",
+          "a": "Not necessarily. When properly indicated, they enhance your natural features and restore lost volume without exaggeration."
         },
         {
-          "q": "How long does the filling last?",
-          "a": "On average 9 to 18 months, depending on the area and patient's metabolism."
+          "q": "Is the effect immediate?",
+          "a": "Yes, results are visible immediately after application, with progressive improvement in subsequent days."
         },
         {
-          "q": "Can it make the face look artificial?",
-          "a": "No, as long as it's done with common sense and by a qualified professional."
+          "q": "How long does it last?",
+          "a": "It depends on the area and type of acid used, but usually between 9 and 18 months."
         },
         {
-          "q": "What areas can be treated?",
-          "a": "Lips, dark circles, jaw, chin, nasolabial folds and more."
-        },
-        {
-          "q": "Is there risk of allergy?",
-          "a": "Very rare, as hyaluronic acid is a biocompatible substance with the human body."
+          "q": "Can it be undone if I don’t like it?",
+          "a": "Yes. Hyaluronic acid is reversible with an enzyme called hyaluronidase."
         }
       ],
       "skinbooster": [
         {
-          "q": "Is skinbooster a filler?",
-          "a": "No. It hydrates deeply without volumizing effect, different from conventional hyaluronic acid."
+          "q": "Is it a type of filler?",
+          "a": "No. Although it contains hyaluronic acid, skinbooster is focused on hydration and revitalization, without volumizing effect."
         },
         {
-          "q": "How many sessions are indicated?",
-          "a": "Usually 3 initial sessions with semi-annual or annual maintenance."
+          "q": "Who can do it?",
+          "a": "Recommended for men and women, especially on devitalized, dry skin or skin showing early signs of aging."
         },
         {
-          "q": "Can I see results from the first application?",
-          "a": "Yes, the skin already shows more vigor and improvement in texture from the first session."
-        },
-        {
-          "q": "Which regions can I treat?",
-          "a": "Face, neck, décolletage and hands are the most common."
-        },
-        {
-          "q": "Does it work for oily skin?",
-          "a": "Yes. The focus is to hydrate deeply without making the skin heavy or oily."
+          "q": "Which areas can be treated?",
+          "a": "Face, neck, décolleté and hands are the most common."
         }
       ],
       "blefaroplastia": [
         {
-          "q": "Is anesthesia necessary?",
-          "a": "Not general anesthesia. Can be done with local anesthesia and light sedation, if necessary."
+          "q": "Does non‑surgical blepharoplasty replace surgery?",
+          "a": "In many cases, yes. For mild to moderate sagging, the hybrid CO₂ laser offers an effective alternative, improving excess skin, lines and eyelid texture without incisions or sutures."
         },
         {
-          "q": "Does the procedure replace surgery?",
-          "a": "In mild to moderate cases, yes. For severe excess skin, surgery may be more indicated."
+          "q": "Is downtime required?",
+          "a": "Recovery is fast. There may be redness and fine crusts lasting 5 to 7 days, but return to activities is usually quick with proper care."
         },
         {
-          "q": "What technologies are used?",
-          "a": "We use hybrid CO₂ laser and plasma jet."
+          "q": "Does the procedure hurt?",
+          "a": "The session is well tolerated and performed under topical anesthesia. The feeling is like a light skin warming, followed by redness and fine crusts for a few days."
         },
         {
-          "q": "Is there recovery time?",
-          "a": "Yes, slight swelling and redness for a few days. Using sunglasses helps in recovery."
+          "q": "How many sessions are needed?",
+          "a": "Typically 1 to 2 sessions, depending on sagging level and individual skin response."
         },
         {
-          "q": "How many sessions do I need?",
-          "a": "Usually 1 to 3 sessions, with intervals of a few weeks."
+          "q": "How long do the results last?",
+          "a": "Results may last for years, especially when combined with skincare and overall health maintenance. Stimulated collagen continues to be produced for months after the procedure."
         }
       ],
       "plasma": [
         {
-          "q": "Is plasma the same as laser?",
-          "a": "No. They are different technologies, but both stimulate collagen and improve skin firmness."
+          "q": "What differentiates Fotona 5D®️ from other lasers?",
+          "a": "It combines five different technologies in a single session, treating depth, surface and internal collagen with a comprehensive and effective approach—something few devices offer."
         },
         {
-          "q": "Is the treatment painful?",
-          "a": "May cause slight burning. Topical anesthetic is applied beforehand."
+          "q": "Does the procedure hurt?",
+          "a": "The procedure is well tolerated; most patients report only a gentle warming sensation during some stages."
         },
         {
-          "q": "How long does it take to heal?",
-          "a": "About 5 to 7 days, with small scabs that disappear naturally."
+          "q": "How long is recovery?",
+          "a": "It’s possible to resume your routine the same day. Mild redness or slight swelling may occur in the first few hours, especially in sensitive areas like eyelids and lips."
         },
         {
           "q": "How many sessions are needed?",
-          "a": "1 to 3 sessions, depending on the degree of sagging."
+          "a": "On average, 1 to 2 sessions per year, depending on skin response and aging degree. The collagen stimulation from Fotona is deep and sustained, promoting continuous improvement."
         },
         {
-          "q": "Does it work for any skin type?",
-          "a": "Brown or black skin should be evaluated individually to avoid risks of hyperpigmentation."
+          "q": "Does Fotona replace fillers or biostimulators?",
+          "a": "They are different approaches. Fotona naturally stimulates collagen and improves skin quality, while fillers address volume and structure. In some cases, the best result comes from combining both."
         }
       ],
       "melasma": [
         {
-          "q": "Is there a cure for melasma?",
-          "a": "There is no definitive cure, but it can be controlled with continuous treatment and discipline."
+          "q": "Is melasma curable?",
+          "a": "There’s no definitive cure, but it can be controlled with continuous treatment and discipline."
         },
         {
           "q": "What is the best treatment?",
-          "a": "It depends on the type of melasma. May include lasers, peels, whitening creams and oral medications."
+          "a": "It depends on the type of melasma. It may include lasers, peels, bleaching creams and oral medications."
         },
         {
-          "q": "Does sun make melasma worse?",
-          "a": "Yes. It is essential to use sunscreen daily, even indoors."
+          "q": "Does sun worsen melasma?",
+          "a": "Yes. It’s essential to use sunscreen daily, even indoors."
         },
         {
-          "q": "How long before I see improvement?",
+          "q": "How long to see improvement?",
           "a": "It may take 4 to 8 weeks to notice reduction in spots."
         },
         {
@@ -187,47 +222,128 @@
       "tricologia": [
         {
           "q": "Does the treatment work for female baldness?",
-          "a": "Yes. Androgenetic alopecia affects men and women and responds well to current treatments."
+          "a": "Yes. Androgenetic alopecia affects both men and women and responds well to current treatments."
         },
         {
           "q": "Is it possible to recover lost hair?",
-          "a": "If the follicles are active, yes. The sooner you start, the better the results."
+          "a": "Yes, if the follicles are still active. The sooner treatment begins, the better the results."
         },
         {
           "q": "What techniques are used?",
           "a": "Microneedling, drug delivery, lasers, LED and topical or oral medications."
         },
         {
-          "q": "How long to see results?",
-          "a": "Usually 2 to 3 months, being a medium to long-term treatment."
+          "q": "How long until results are seen?",
+          "a": "Usually 2 to 3 months, as it’s a medium‑ to long‑term treatment."
         },
         {
-          "q": "Is it necessary to treat continuously?",
-          "a": "Yes. Maintenance is essential to preserve hair and prevent new hair loss."
+          "q": "Is continuous treatment necessary?",
+          "a": "Yes. Maintenance is essential to preserve hair and prevent new loss."
         }
       ],
       "gordura": [
         {
-          "q": "Does the treatment really eliminate fat?",
-          "a": "Yes. Enzymes help break down localized fat and are naturally eliminated by the body."
+          "q": "How many sessions are needed to see results?",
+          "a": "The number of sessions varies depending on the technology and individual response. On average, 3 to 5 sessions are recommended, with monthly intervals. Injectable treatments like enzymes tend to show improvement from the second or third application."
         },
         {
-          "q": "How many sessions are needed?",
-          "a": "On average 3 to 6 sessions, depending on the region and body response."
+          "q": "Does enzyme treatment hurt?",
+          "a": "The procedure is well tolerated. We use fine needles and, if needed, topical anesthesia. There may be slight burning during application and localized sensitivity for 1 or 2 days."
         },
         {
-          "q": "Is it indicated for weight loss?",
-          "a": "No. It is indicated for those who are within normal weight and have localized accumulations."
+          "q": "Is there a risk of fat returning to the treated area?",
+          "a": "Removed fat cells do not regenerate. However, poor diet or inactivity may lead to accumulation in other areas. That’s why results last longer when combined with healthy habits."
         },
         {
-          "q": "What areas can I treat?",
-          "a": "Double chin, abdomen, flanks, back, arms, thighs."
+          "q": "Can fat and sagging be treated simultaneously?",
+          "a": "Yes. We combine body technologies with lipolytic effect and biostimulators to treat fat and stimulate collagen at the same time, delivering a firmer, more uniform and complete result."
         },
         {
-          "q": "Is there risk of sagging after the procedure?",
-          "a": "There may be, so we often combine with biostimulators or radiofrequency for better results."
+          "q": "Is recovery time required?",
+          "a": "Treatments are minimally invasive and do not require downtime. Mild swelling or bruising may occur in treated area, resolving within a few days."
+        },
+        {
+          "q": "What’s the best treatment for me?",
+          "a": "It all starts with a personalized medical evaluation. During the consultation, we identify fat type and presence of sagging and design a treatment plan tailored to your body."
         }
       ]
+    }
+  },
+  "treatmentInfo": {
+    "title": "Treatment Information",
+    "labels": {
+      "treatment": "Treatment",
+      "duration": "Duration",
+      "sessions": "Number of Sessions",
+      "interval": "Interval between Sessions",
+      "results": "Time to Results"
+    },
+    "disclaimer": "* Results may vary depending on each patient",
+    "scheduleButton": "Schedule Consultation",
+    "data": {
+      "botulinica": {
+        "nome": "Botulinum Toxin",
+        "duracao": "30–45 min",
+        "sessoes": "1 session",
+        "intervalo": "3–6 months",
+        "resultados": "3–7 days"
+      },
+      "colageno": {
+        "nome": "Collagen Biostimulator",
+        "duracao": "45–60 min",
+        "sessoes": "2–3 sessions",
+        "intervalo": "30–45 days",
+        "resultados": "4–8 weeks"
+      },
+      "hialuronico": {
+        "nome": "Hyaluronic Acid",
+        "duracao": "30–60 min",
+        "sessoes": "1–2 sessions",
+        "intervalo": "15–30 days",
+        "resultados": "Immediate"
+      },
+      "skinbooster": {
+        "nome": "Skinbooster",
+        "duracao": "30–45 min",
+        "sessoes": "3 sessions",
+        "intervalo": "30 days",
+        "resultados": "2–4 weeks"
+      },
+      "blefaroplastia": {
+        "nome": "Non‑surgical Blepharoplasty",
+        "duracao": "60–90 min",
+        "sessoes": "1–3 sessions",
+        "intervalo": "30–45 days",
+        "resultados": "4–6 weeks"
+      },
+      "plasma": {
+        "nome": "Fotona 5D®️",
+        "duracao": "45–60 min",
+        "sessoes": "1–3 sessions",
+        "intervalo": "30–45 days",
+        "resultados": "2–4 weeks"
+      },
+      "melasma": {
+        "nome": "Melasma Treatment",
+        "duracao": "45–90 min",
+        "sessoes": "4–8 sessions",
+        "intervalo": "15–30 days",
+        "resultados": "4–8 weeks"
+      },
+      "tricologia": {
+        "nome": "Hair Treatment",
+        "duracao": "60–90 min",
+        "sessoes": "6–12 sessions",
+        "intervalo": "15–30 days",
+        "resultados": "8–12 weeks"
+      },
+      "gordura": {
+        "nome": "Enzymes for Localized Fat",
+        "duracao": "45–60 min",
+        "sessoes": "3–6 sessions",
+        "intervalo": "15–21 days",
+        "resultados": "4–6 weeks"
+      }
     }
   },
   "footer": {
